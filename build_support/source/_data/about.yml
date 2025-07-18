@@ -99,6 +99,9 @@
     music_bg: http://p2.music.126.net/A29AvNO-UD5iRl_LtuBlrw==/109951165139737007.jpg?param=640y300
     music_link: /music/?id=12886307666&server=netease
   reward_list:
-   - name: test
+   - name: 小尘
      amount: 0.0
      datatime: 2025-07-18
+   - name: 雨云
+     amount: 180.0
+     datatime: 2025-07-17
