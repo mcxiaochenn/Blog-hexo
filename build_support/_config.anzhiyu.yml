@@ -763,14 +763,14 @@ beautify:
 font:
   global-font-size: 16px
   code-font-size:
-  font-family:
+  font-family: 'HarmonyOS_Sans_SC_Bold'
   code-font-family: consolas, Menlo, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
 
 # Font settings for the site title and site subtitle
 # 左上角网站名字 主页居中网站名字
 blog_title_font:
   font_link:
-  font-family: PingFang SC, 'Hiragino Sans GB', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif
+  font-family: 'HarmonyOS_Sans_SC_Bold' # PingFang SC, 'Hiragino Sans GB', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif
 
 # The setting of divider icon (水平分隔线图标设置)
 hr_icon:
@@ -1272,6 +1272,7 @@ inject:
     # - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'">
     - <link rel="stylesheet" href="/css/imgloaded.css?1">
     - <script defer src="https://umami.mcxiaochen.top/script.js" data-website-id="9b01434b-229e-4ca2-9416-4108f9ff2b4d"></script>
+    - <link rel="stylesheet" href="/css/font.css" media="defer" onload="this.media='all'">
     - <meta name="baidu-site-verification" content="codeva-lzpVCQt9AB" />
 
   bottom:
