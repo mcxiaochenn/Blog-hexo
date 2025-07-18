@@ -1,0 +1,11 @@
+- title: 即刻短文
+  subTitle: 小尘的日常生活。
+  tips: 随时随地，分享生活
+  buttonText: 关于我
+  buttonLink: /about/
+  limit: 30
+  home_essay: true
+  top_background: /img/congyu/congyu4.png
+  essay_list:
+    - content: 感觉要累死了，终于把博客搭的7788了，希望能活的长久吧。。。
+      date: 2025/07/18
