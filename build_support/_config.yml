@@ -186,3 +186,6 @@ envelope_comment:
     top_img: false
     type: envelope
 
+## Sitemap Generator
+sitemap:
+  path: sitemap.xml
