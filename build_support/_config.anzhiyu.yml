@@ -1299,7 +1299,7 @@ CDN:
     # pjax:
     # blueimp_md5:
     # valine:
-    # twikoo:
+    twikoo: /js/twikoo.all.min.js
     # waline_js:
     # waline_css:
     # sharejs:
