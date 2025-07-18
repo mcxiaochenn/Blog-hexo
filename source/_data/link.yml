@@ -1,0 +1,46 @@
+- class_name: 框架
+  flink_style: flexcard
+  hundredSuffix: ""
+  link_list:
+    - name: Hexo
+      link: https://hexo.io/zh-tw/
+      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
+      descr: 快速、简单且强大的网站框架
+    - name: anzhiyu主题
+      link: https://blog.anheyu.com/
+      avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg
+      descr: 生活明朗，万物可爱
+      siteshot: https://npm.elemecdn.com/anzhiyu-theme-static@1.1.6/img/blog.anheyu.com.jpg
+
+- class_name: 推荐服务商
+  flink_style: flexcard
+  hundredSuffix: ""
+  link_list:
+    - name: Rainyun 润雨科技
+      link: https://www.rainyun.com/NzUwOTc0_
+      avatar: https://www.rainyun.com/favicon.ico
+      descr: 🚀 稳定 · 高性价比 · 学生/开发者友好！
+      siteshot: /img/link/yuyun.png
+
+- class_name: 推荐博客
+  flink_style: telescopic
+  hundredSuffix: ""
+  link_list:
+    - name: 安知鱼
+      link: https://blog.anheyu.com/
+      avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg
+      descr: 生活明朗，万物可爱
+      siteshot: https://npm.elemecdn.com/anzhiyu-theme-static@1.1.6/img/blog.anheyu.com.jpg
+      color: vip
+      tag: 技术
+
+- class_name: 小伙伴
+  class_desc: 那些人，那些事
+  flink_style: anzhiyu
+  hundredSuffix: ""
+  link_list:
+    - name: 安知鱼
+      link: https://blog.anheyu.com/
+      avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg
+      descr: 生活明朗，万物可爱
+      recommend: true

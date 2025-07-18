@@ -1,0 +1,104 @@
+- class_name: 关于页
+  subtitle: 有志不在年高，无智空活百岁✨
+  avatarImg: /img/avatar.png
+  avatarSkills:
+    left:
+      - 🤖️ 数码科技爱好者
+      - 🔍 分享与热心帮助
+      - 🏠 智能家居小能手
+      - 🔨 设计开发一条龙
+    right:
+      - Minecraft服务器管理 🤝
+      - 网站搭建与部署 🏃
+      - 小型Linux服务器运维 🧱
+      - 较强的独立思考能力 💢
+  name: 陆逸尘
+  description: 是一名 编程爱好者、安卓玩机爱好者、高中生、UP主、博主、Hacker
+  aboutsiteTips:
+    tips: 追求
+    title1: 源于
+    title2: 热爱而去 感受
+    word:
+      - 学习
+      - 生活
+      - 程序
+      - 骑行
+  helloAbout: Hello world!
+  skillsTips:
+    tips: 技能
+    title: 开启创造力
+  careers:
+    tips: 生涯
+    title: 我们一起，无限进步！
+    list:
+      - desc: 数字化设计与制造专业
+        color: "#357ef5"
+    img: /img/congyu/congyu2a.png #https://bu.dusays.com/2023/04/21/644287166329b.png
+  statistic:
+    link: /archives
+    text: 文章隧道
+    cover: https://bu.dusays.com/2023/05/01/644f4b037b930.jpg
+  map:
+    title: 我现在住在
+    StrengthenTitle: 中国，嘉兴市
+    background: /img/map.png
+    backgroundDark: /img/map.png
+  selfInfo:
+    selfInfoTips1: 生于
+    selfInfoContentYear: 2009
+    selfInfoTips2: 浙江嘉兴平湖技师学院
+    selfInfoContent2: 数字化设计与制造
+    selfInfoTips3: 现在职业
+    selfInfoContent3: 高一学生👨‍🎓
+  personalities:
+    author_name: 还没测呢
+    personality_type: 未知
+    photo_url: /img/zp.jpg
+    personality_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.8/img/svg/ESFJ-A.svg
+    name_url: https://www.16personalities.com/ch/esfj-%E4%BA%BA%E6%A0%BC
+  maxim:
+    maxim_tips: 座右铭
+    maxim_top: 有志不在年高，
+    maxim_bottom: 无智空活百岁。
+  buff:
+    buff_tips: 特长
+    buff_top: 计算机全校前五的 小透明
+    buff_bottom: 二次元指数 MAX
+  game:
+    game_tips: 爱好游戏
+    game_title: 原神
+    game_uid: "UID: 1zzzzzzzzzz"
+    game_bg: https://bu.dusays.com/2023/04/22/64433bf26e25d.webp
+  comic:
+    comic_tips: 爱好番剧
+    comic_title: 追番
+    comic_list:
+      - name: DARLING in the FRANXX
+        href: https://www.bilibili.com/bangumi/media/md9192
+        cover: /img/bangumis/becda7a59d0fe317c51a6e357857cffca20fa0d4.jpg
+      - name: 晨曦公主
+        href: https://www.bilibili.com/bangumi/media/md3072
+        cover: /img/bangumis/b95c479393294b8e256483703fbd3c7dea0dc7ac.jpg
+      - name: 新世纪福音战士新剧场版：终
+        href: https://www.bilibili.com/bangumi/media/md28371498
+        cover: /img/bangumis/675227f0b33408f64e7875640f8432ad9d929a77.png
+      - name: 埃罗芒阿老师
+        href: https://www.bilibili.com/bangumi/media/md5997
+        cover: /img/bangumis/a223b1376633625be1cd214c34d8bf34a1e03770.jpg
+      - name: 千恋＊万花
+        href: https://www.bilibili.com/video/BV11741137KU
+        cover: /img/bangumis/997b09f7f65120cdc45f06e6b4bc6fab0ffaab62.jpg
+  like:
+    like_tips: 关注偏好
+    like_title: 数码科技
+    like_bg: https://bu.dusays.com/2022/12/06/638f5f05ce1f7.jpg
+    like_bottom: 手机、电脑软硬件
+  music:
+    music_tips: 音乐偏好
+    music_title: 说唱、Rap、嘻哈说唱
+    music_bg: http://p2.music.126.net/A29AvNO-UD5iRl_LtuBlrw==/109951165139737007.jpg?param=640y300
+    music_link: /music/?id=12886307666&server=netease
+  reward_list:
+   - name: test
+     amount: 0.0
+     datatime: 2025-07-18

@@ -1,0 +1,39 @@
+- class_name: 好物
+  description: 实物装备推荐
+  tip: 跟 小尘 一起享受科技带来的乐趣
+  top_background: https://bu.dusays.com/2022/12/06/638f5f05ce1f7.jpg
+  good_things:
+    - title: 生产力
+      description: 提升自己生产效率的硬件设备
+      equipment_list:
+        - name: 小破台式机
+          specification: I3-12100f+GTX1650 16G+1Tnvme+1Thdd
+          description: 显示器是杂牌的，但色准还行，主力机，只能等有钱换了。
+          image: /img/equipment/mypc.jpg
+          link: https://www.bilibili.com/video/av546403908/
+        - name: 脑科X99d3m E5-2676v3
+          specification: 32G*4 + 500G*5（透明探索版）
+          description: all in boom，飞牛作为底层，我所有的数据都存在这个nas上面，少他没我！！！
+          image: /img/equipment/nas.jpg
+          link: https://www.fnnas.com/
+        - name: iPhone SE3（2022）
+          specification: 黑色 / 512G
+          description: 经典小巧外观，一手掌握，扩容512G妈妈再也不用担心手机内存不够啦。A15的性能放到如今依旧能打。
+          image: https://cdsassets.apple.com/live/SZLF0YNV/images/sp/111866_sp867-iphone-se-3gen.png
+          link: https://support.apple.com/zh-cn/111866
+    - title: 出行
+      description: 用来出行的实物及设备
+      equipment_list:
+        - name: 小米手环8
+          specification: 银色
+          description: 始终为我的健康放哨，骑车看心率很棒。
+          image: /img/equipment/xiaomiband8.jpg
+          link: https://www.mi.com/xiaomi-shouhuan-8
+    - title: 代步工具
+      description: 出门交通工具
+      equipment_list:
+        - name: XDS AD350(2024)
+          specification: 亮黑色
+          description: 单车佬一枚，大腿粗如象腿，手臂细如狗腿，每月稳定300公里，积极锻炼ing
+          image: /img/equipment/ad350.jpg
+          link: https://xdsbikeco.com/products/xds-ad350-20sp-road-bike?variant=45631862767861
