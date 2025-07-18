@@ -14,7 +14,11 @@
       avatar: https://blog.xiowo.net/img/avatar.png
       descr: 万年鸽王，哈哈OvO
       siteshot: https://bu.dusays.com/2025/06/17/685044d6bca69.png
-
+    - name: 前尘小筑
+      link: https://mnchen.cn/
+      avatar: https://image.mnchen.cn/2023/12/mnochen.jpg
+      descr: 虽多尘色染，犹见墨痕浓
+      siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https://mnchen.cn/
 - class_name: 小伙伴
   class_desc: 那些人，那些事儿~
   flink_style: anzhiyu
@@ -29,6 +33,11 @@
       link: https://blog.xiowo.net/
       avatar: https://blog.xiowo.net/img/avatar.png
       descr: 万年鸽王，哈哈OvO
+      recommend: true
+    - name: 前尘小筑
+      link: https://mnchen.cn/
+      avatar: https://image.mnchen.cn/2023/12/mnochen.jpg
+      descr: 虽多尘色染，犹见墨痕浓
       recommend: true
 
 - class_name: 推荐服务商
