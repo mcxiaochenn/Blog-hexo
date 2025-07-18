@@ -7,7 +7,7 @@ menu:
 
    友链:
      友人帐: /link/ || anzhiyu-icon-link
-     # 朋友圈: /fcircle/ || anzhiyu-icon-artstation
+     朋友圈: /fcircle/ || anzhiyu-icon-artstation
      留言板: /comments/ || anzhiyu-icon-envelope
 
    我的:
@@ -30,6 +30,9 @@ nav:
   menu:
     - title: 网页
       item:
+        - name: 小尘的GitHub
+          link: https://github.com/mcxiaochenn
+          icon: https://github.com/favicon.ico
         - name: 尘の博客
           link: https://blog.mcxiaochen.top/
           icon: https://blog.mcxiaochen.top/favicon.ico
@@ -1098,11 +1101,11 @@ home_top:
 
 # 朋友圈配置
 friends_vue:
-  enable: false
+  enable: true
   vue_js: https://npm.elemecdn.com/anzhiyu-theme-static@1.1.1/friends/index.4f887d95.js
-  apiurl: # 朋友圈后端地址
+  apiurl: https://friend.mcxiaochen.top/ # 朋友圈后端地址
   top_tips: 使用 友链朋友圈 订阅友链最新文章
-  top_background:
+  top_background: /img/congyu/congyu03.png
 
 # 深色模式粒子效果canvas
 universe:
@@ -1359,3 +1362,4 @@ Umami:
   umami_id: 9b01434b-229e-4ca2-9416-4108f9ff2b4d # 填写 umami 统计 ID
   umami_api: https://api.umami.mcxiaochen.top/umami.php # 填写 umami API 地址
   umami_url: # https://um.ruom.top 填写 umami 服务器地址 使用 CDN 加速 Umami 静态资源后需配置此项
+
