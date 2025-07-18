@@ -1258,6 +1258,7 @@ inject:
     # - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'">
     - <link rel="stylesheet" href="/css/imgloaded.css?1">
     - <script defer src="https://umami.mcxiaochen.top/script.js" data-website-id="9b01434b-229e-4ca2-9416-4108f9ff2b4d"></script>
+    - <meta name="baidu-site-verification" content="codeva-lzpVCQt9AB" />
 
   bottom:
     # 自定义js
