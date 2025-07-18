@@ -1252,7 +1252,7 @@ body[data-type='about'] #web_bg {
   z-index: 3;
 }
 
-if (hexo-config('LA.enable')) {
+if (hexo-config('LA.enable') || hexo-config('Umami.enable')) {
   body: 1;
 } else {
   #about-page {

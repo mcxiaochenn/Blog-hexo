@@ -89,16 +89,21 @@ if site.data.about
               img.author-content-img.no-lightbox(alt=careers.tips, src=url_for(careers.img) onerror=`this.onerror=null;this.src='` + url_for(theme.error_img.flink) + `'`)
       
       .author-content
-        if theme.LA.enable
+        if theme.LA.enable || theme.Umami.enable
           - let cover = item.statistic.cover
           .about-statistic.author-content-item(style=`background: url(${cover}) top / cover no-repeat;`)
             .card-content
               .author-content-item-tips 数据
               span.author-content-item-title 访问统计
               #statistic
-              .post-tips
-                | 统计信息来自 
-                a(href='https://invite.51.la/1NzKqTeb?target=V6', target='_blank', rel='noopener nofollow') 51la网站统计
+              if theme.LA.enable
+                .post-tips
+                  | 统计信息来自
+                  a(href='https://www.51.la/', target='_blank', rel='noopener nofollow') 51LA统计
+              else if theme.Umami.enable
+                .post-tips
+                  | 统计信息来自
+                  a(href='https://um.ruom.top', target='_blank', rel='noopener nofollow') Umami统计
               .banner-button-group
                 - let link = item.statistic.link
                 - let text = item.statistic.text
@@ -288,105 +293,155 @@ if site.data.about
 
     script(src=url_for(theme.asset.countup_js))
     - const ck = theme.LA.ck
-    script(defer).
-      function initAboutPage() {
-        fetch("https://v6-widget.51.la/v6/#{ck}/quote.js")
-          .then(res => res.text())
-          .then(data => {
-            let title = ["最近活跃", "今日人数", "今日访问", "昨日人数", "昨日访问", "本月访问", "总访问量"];
-            let num = data.match(/(<\/span><span>).*?(\/span><\/p>)/g);
 
-            num = num.map(el => {
-              let val = el.replace(/(<\/span><span>)/g, "");
-              let str = val.replace(/(<\/span><\/p>)/g, "");
-              return str;
-            });
+    //- Umami 统计 和 51LA 统计
+    if theme.Umami && theme.Umami.enable
+      script(defer).
+        (function() {
+          const umamiApiUrl = "#{url_for(theme.Umami.umami_api)}";
+          fetch(umamiApiUrl)
+            .then(res => res.json())
+            .then(data => {
+              let title = {
+                "today_uv": "今日人数",
+                "today_pv": "今日访问",
+                "yesterday_uv": "昨日人数",
+                "yesterday_pv": "昨日访问",
+                "last_month_pv": "本月访问",
+                "last_year_pv": "本年访问"
+              };
+              let s = document.getElementById("statistic");
+              for (let key in data) {
+                if (data.hasOwnProperty(key) && title[key]) {
+                  s.innerHTML += `<div><span>${title[key]}</span><span id="${key}">${data[key]}</span></div>`;
+                }
+              }
+              initCountUp(data, title);
+            })
+            .catch(error => console.error('Error:', error));
+        })();
+    else
+      script(defer).
+        function initAboutPage() {
+          fetch("https://v6-widget.51.la/v6/#{ck}/quote.js")
+            .then(res => res.text())
+            .then(data => {
+              let title = ["最近活跃", "今日人数", "今日访问", "昨日人数", "昨日访问", "本月访问", "总访问量"];
+              let num = data.match(/(<\/span><span>).*?(\/span><\/p>)/g);
 
-            let statisticEl = document.getElementById("statistic");
-
-            // 自定义不显示哪个或者显示哪个，如下为不显示 最近活跃访客 和 总访问量
-            let statistic = [];
-            for (let i = 0; i < num.length; i++) {
-              if (!statisticEl) return;
-              if (i == 0) continue;
-              statisticEl.innerHTML +=
-                "<div><span>" + title[i] + "</span><span id=" + title[i] + ">" + num[i] + "</span></div>";
-              queueMicrotask(() => {
-                statistic.push(
-                  new CountUp(title[i], 0, num[i], 0, 2, {
-                    useEasing: true,
-                    useGrouping: true,
-                    separator: ",",
-                    decimal: ".",
-                    prefix: "",
-                    suffix: "",
-                  })
-                );
+              num = num.map(el => {
+                let val = el.replace(/(<\/span><span>)/g, "");
+                let str = val.replace(/(<\/span><\/p>)/g, "");
+                return str;
               });
-            }
 
-            let statisticElement = document.querySelector(".about-statistic.author-content-item");
-            function statisticUP() {
-              if (!statisticElement) return;
+              let statisticEl = document.getElementById("statistic");
 
-              const callback = (entries, observer) => {
-                entries.forEach(entry => {
-                  if (entry.isIntersecting) {
-                    for (let i = 0; i < num.length; i++) {
-                      if (i == 0) continue;
-                      queueMicrotask(() => {
-                        statistic[i - 1].start();
-                      });
-                    }
-                    observer.disconnect(); // 停止观察元素，因为不再需要触发此回调
-                  }
+              // 自定义不显示哪个或者显示哪个，如下为不显示 最近活跃访客 和 总访问量
+              let statistic = [];
+              for (let i = 0; i < num.length; i++) {
+                if (!statisticEl) return;
+                if (i == 0) continue;
+                statisticEl.innerHTML +=
+                  "<div><span>" + title[i] + "</span><span id=" + title[i] + ">" + num[i] + "</span></div>";
+                queueMicrotask(() => {
+                  statistic.push(
+                    new CountUp(title[i], 0, num[i], 0, 2, {
+                      useEasing: true,
+                      useGrouping: true,
+                      separator: ",",
+                      decimal: ".",
+                      prefix: "",
+                      suffix: "",
+                    })
+                  );
                 });
-              };
+              }
 
-              const options = {
-                root: null,
-                rootMargin: "0px",
-                threshold: 0
-              };
-              const observer = new IntersectionObserver(callback, options);
-              observer.observe(statisticElement);
-            }
+              let statisticElement = document.querySelector(".about-statistic.author-content-item");
+              function statisticUP() {
+                if (!statisticElement) return;
 
-            const selfInfoContentYear = new CountUp("selfInfo-content-year", 0, #{selfInfoContentYear}, 0, 2, {
-              useEasing: true,
-              useGrouping: false,
-              separator: ",",
-              decimal: ".",
-              prefix: "",
-              suffix: "",
+                const callback = (entries, observer) => {
+                  entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                      for (let i = 0; i < num.length; i++) {
+                        if (i == 0) continue;
+                        queueMicrotask(() => {
+                          statistic[i - 1].start();
+                        });
+                      }
+                      observer.disconnect(); // 停止观察元素，因为不再需要触发此回调
+                    }
+                  });
+                };
+
+                const options = {
+                  root: null,
+                  rootMargin: "0px",
+                  threshold: 0
+                };
+                const observer = new IntersectionObserver(callback, options);
+                observer.observe(statisticElement);
+              }
+
+              statisticUP();
+              initCountUp({}, {});
             });
 
-            let selfInfoContentYearElement = document.querySelector(".author-content-item.selfInfo.single");
-            function selfInfoContentYearUp() {
-              if (!selfInfoContentYearElement) return;
+          initAnimation();
+        }
+        if (typeof gsap === "object") {
+          initAboutPage()
+        } else {
+          getScript("!{url_for(theme.asset.gsap_js)}").then(initAboutPage);
+        }
 
-              const callback = (entries, observer) => {
-                entries.forEach(entry => {
-                  if (entry.isIntersecting) {
-                    selfInfoContentYear.start();
-                    observer.disconnect(); // 停止观察元素，因为不再需要触发此回调
-                  }
-                });
-              };
+    //- 初始化 countup.js
+    script(defer).
+      function initCountUp(data, title) {
+        const elements = [];
 
-              const options = {
-                root: null,
-                rootMargin: "0px",
-                threshold: 0
-              };
-              const observer = new IntersectionObserver(callback, options);
-              observer.observe(selfInfoContentYearElement);
+        for (let key in data) {
+          if (data.hasOwnProperty(key) && title[key]) {
+            const element = document.getElementById(key);
+            if (element) {
+              elements.push({ id: key, value: data[key], element: element });
             }
+          }
+        }
 
-            selfInfoContentYearUp();
-            statisticUP()
+        const selfInfoContentYearElement = document.getElementById("selfInfo-content-year");
+        if (selfInfoContentYearElement) {
+          elements.push({ id: "selfInfo-content-year", value: #{selfInfoContentYear}, element: selfInfoContentYearElement });
+        }
+
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              const target = elements.find(el => el.element === entry.target);
+              if (target) {
+                const countUp = new CountUp(target.id, 0, target.value, 0, 2, {
+                  useEasing: true,
+                  useGrouping: target.id === "selfInfo-content-year" ? false : true,
+                  separator: ",",
+                  decimal: ".",
+                  prefix: "",
+                  suffix: "",
+                });
+                countUp.start();
+                observer.unobserve(entry.target);
+              }
+            }
           });
+        }, { threshold: 0 });
 
+        elements.forEach(el => observer.observe(el.element));
+      }
+
+    //- 独立鼠标跟随动画
+    script(defer).
+      function initAnimation() {
         var pursuitInterval = null;
         pursuitInterval = setInterval(function () {
           const show = document.querySelector("span[data-show]");
@@ -424,7 +479,7 @@ if site.data.about
         });
       }
       if (typeof gsap === "object") {
-        initAboutPage()
+        initAnimation()
       } else {
-        getScript("!{url_for(theme.asset.gsap_js)}").then(initAboutPage);
+        getScript("!{url_for(theme.asset.gsap_js)}").then(initAnimation);
       }
