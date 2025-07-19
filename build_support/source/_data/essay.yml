@@ -7,6 +7,10 @@
   home_essay: true
   top_background: /img/congyu/congyu4.png
   essay_list:
+    - content: 加了rebots试图提高网站SEO权重
+      date: 2025/07/19 09:51
+    - content: 魔改了link.js达到去重效果（内心os：我真聪明）
+      date: 2025/07/19 09:40
     - content: 加了分流规则，大陆走vercel，海外/其他走Cloudflare，但是貌似vercel会报配置无效，暂时先这样，出问题再想办法（
       date: 2025/07/19 09:21
     - content: 感觉要累死了，终于把博客搭的7788了，希望能活的长久吧。。。
