@@ -51,7 +51,7 @@ type: "link"
 ```yml
 - name: 尘の个人博客
   link: https://blog.mcxiaochen.top/
-  avatar: https://blog.mcxiaochen.top/avatar.png
+  avatar: https://blog.mcxiaochen.top/favicon.ico
   descr: 一个高中生UP搭的博客 QwQ
   siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https://blog.mcxiaochen.top/
 ```
