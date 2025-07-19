@@ -4,7 +4,16 @@
   <url>
     <loc>https://blog.mcxiaochen.top/friend.json</loc>
     
-    <lastmod>2025-07-18</lastmod>
+    <lastmod>2025-07-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mcxiaochen.top/about/index.html</loc>
+    
+    <lastmod>2025-07-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -39,15 +48,6 @@
   
   <url>
     <loc>https://blog.mcxiaochen.top/privacy/index.html</loc>
-    
-    <lastmod>2025-07-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mcxiaochen.top/about/index.html</loc>
     
     <lastmod>2025-07-18</lastmod>
     
@@ -148,7 +148,7 @@
 
   <url>
     <loc>https://blog.mcxiaochen.top/</loc>
-    <lastmod>2025-07-18</lastmod>
+    <lastmod>2025-07-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -156,35 +156,35 @@
   
   <url>
     <loc>https://blog.mcxiaochen.top/tags/%E4%BF%9D%E5%A7%86%E7%BA%A7/</loc>
-    <lastmod>2025-07-18</lastmod>
+    <lastmod>2025-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.mcxiaochen.top/tags/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2025-07-18</lastmod>
+    <lastmod>2025-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.mcxiaochen.top/tags/Arch/</loc>
-    <lastmod>2025-07-18</lastmod>
+    <lastmod>2025-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.mcxiaochen.top/tags/Linux/</loc>
-    <lastmod>2025-07-18</lastmod>
+    <lastmod>2025-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.mcxiaochen.top/tags/Hyprland/</loc>
-    <lastmod>2025-07-18</lastmod>
+    <lastmod>2025-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -193,14 +193,14 @@
   
   <url>
     <loc>https://blog.mcxiaochen.top/categories/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2025-07-18</lastmod>
+    <lastmod>2025-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.mcxiaochen.top/categories/%E6%95%99%E7%A8%8B/Arch-Linux/</loc>
-    <lastmod>2025-07-18</lastmod>
+    <lastmod>2025-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

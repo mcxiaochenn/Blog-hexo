@@ -1,7 +1,7 @@
 const YML = require('yamljs')
 const fs = require('fs')
 
-const blacklist = ["友站名称1", "友站名称2", "友站名称3"]; // 由于某种原因，不想订阅的列表
+const blacklist = ["安知鱼", "友站名称2", "友站名称3"]; // 由于某种原因，不想订阅的列表
 
 let friends = [],
     data_f = YML.parse(fs.readFileSync('source/_data/link.yml').toString().replace(/(?<=rss:)\s*\n/g, ' ""\n'));
