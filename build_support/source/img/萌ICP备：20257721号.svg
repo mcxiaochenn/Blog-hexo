@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="129" height="20" role="img" aria-label="萌ICP备：20257721号">
+  <title>萌ICP备：20257721号</title>
+  <linearGradient id="s" x2="0" y2="100%">
+    <stop offset="0" stop-color="#bbb" stop-opacity=".1"/>
+    <stop offset="1" stop-opacity=".1"/>
+  </linearGradient>
+  <clipPath id="r">
+    <rect width="129" height="20" rx="3" fill="#fff"/>
+  </clipPath>
+  <g clip-path="url(#r)">
+    <rect width="158" height="20" fill="#555"/>
+    <rect x="48" width="91" height="20" fill="#e1d492"/>
+    <rect width="159" height="20" fill="url(#s)"/>
+  </g>
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <text aria-hidden="true" x="235" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="410">萌ICP备</text>
+    <text x="235" y="140" transform="scale(.1)" fill="#fff" textLength="410">萌ICP备</text>
+    
+    <!-- 修正数字阴影与正文对齐 -->
+    <text aria-hidden="true" x="890" y="150" fill="#ccc" fill-opacity=".3" transform="scale(.1)" textLength="710">20257721号</text>
+    <text x="890" y="140" transform="scale(.1)" fill="#333" textLength="710">20257721号</text>
+  </g>
+</svg>
