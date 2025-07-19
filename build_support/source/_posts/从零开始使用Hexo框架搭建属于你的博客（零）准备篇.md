@@ -116,7 +116,7 @@ Cloudflare Pages 是 Cloudflare 提供的一种免费的静态网站托管服务
 - 如何写文章
 - 等等
 
-### 后端：[雨云 ECS 服务器](https://www.rainyun.com/NzUwOTc0_) 用于搭建博客后端服务
+### 后端：[雨云 ECS 服务器](https://www.rainyun.com/blxc123_) 用于搭建博客后端服务
 
 虽然 Hexo 本身是静态博客框架，但博客网站往往还需要：
 
@@ -126,7 +126,7 @@ Cloudflare Pages 是 Cloudflare 提供的一种免费的静态网站托管服务
 
 - 搜索服务、图床、Webhook 等；
 
-这些都需要一个运行环境，我们将选用[雨云](https://www.rainyun.com/NzUwOTc0_)的轻量 ECS 服务器来托管这些后端服务。[雨云](https://www.rainyun.com/NzUwOTc0_)价格便宜、带宽较充足，非常适合个人使用者入门部署。
+这些都需要一个运行环境，我们将选用[雨云](https://www.rainyun.com/blxc123_)的轻量 ECS 服务器来托管这些后端服务。[雨云](https://www.rainyun.com/blxc123_)价格便宜、带宽较充足，非常适合个人使用者入门部署。
 
 未来我们将一步步讲解：
 

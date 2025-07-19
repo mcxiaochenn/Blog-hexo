@@ -52,6 +52,6 @@ mcxiaochen.top - 现在在用的
 域名：[阿里云](https://aliyun.com/)
 Hexo 文件托管于：[GitHub](https://github.com/)
 Hexo 部署：默认[Cloudflare Pages](https://pages.cloudflare.com/) or 大陆[Vercel](https://vercel.com/)
-后端服务提供：[Rainyun 润雨科技](https://www.rainyun.com/NzUwOTc0_)
+后端服务提供：[Rainyun 润雨科技](https://www.rainyun.com/blxc123_)
 主题：[ANZHIYU](https://docs.anheyu.com/) with [xcTheme](https://blog.mcxiaochen.top/)
 
