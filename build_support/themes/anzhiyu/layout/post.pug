@@ -26,6 +26,8 @@ block content
             - let data_type_update = theme.post_meta.post.date_type === 'updated'
             - let date_type = data_type_update ? 'updated' : 'date'
             time(itemprop="dateCreated datePublished" datetime=date_xml(page[date_type]) title=date_title + ' ' + full_date(page[date_type]))=date(page[date_type], config.date_format)
+      if page.summary && theme.ai_summary.enable
+        include includes/post/post-summary.pug
       !=page.content
 
     include includes/post/post-copyright.pug

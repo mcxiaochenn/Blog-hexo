@@ -7,8 +7,6 @@
   home_essay: true
   top_background: /img/congyu/congyu4.png
   essay_list:
-    - content: 超长keywords嘿嘿
-      date: 2025/07/19 10:02
     - content: 加了robots试图提高网站SEO权重
       date: 2025/07/19 09:51
     - content: 魔改了link.js达到去重效果（内心os：我真聪明）

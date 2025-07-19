@@ -1,6 +1,7 @@
 - class_name: 推荐博客
   flink_style: telescopic
   hundredSuffix: ""
+  class_desc: 参与本站开发及美化、提供设计灵感、捐助本站的优秀博主，大伙都很棒排序不分先后
   link_list:
     - name: 安知鱼
       link: https://blog.anheyu.com/
@@ -8,17 +9,58 @@
       descr: 生活明朗，万物可爱
       siteshot: https://npm.elemecdn.com/anzhiyu-theme-static@1.1.6/img/blog.anheyu.com.jpg
       color: vip
-      tag: 技术
+      tag: 主题开发者
     - name: Mo的记事簿
       link: https://blog.xiowo.net/
       avatar: https://blog.xiowo.net/img/avatar.png
       descr: 万年鸽王，哈哈OvO
       siteshot: https://bu.dusays.com/2025/06/17/685044d6bca69.png
+      color: vip
+      tag: 主题美化
+    - name: 张洪Heo
+      link: https://blog.zhheo.com/
+      avatar: https://img.zhheo.com/i/67d8fa75943e4.webp
+      descr: 分享设计与科技生活
+      siteshot: https://img.zhheo.com/i/67d8fb3c51399.webp
+      color: vip
+      tag: 主题设计
+    - name: 梦爱吃鱼
+      link: https://blog.bsgun.cn/
+      avatar: https://oss-cdn.bsgun.cn/logo/avatar.256.png
+      descr: 但愿日子清静抬头遇见的满是柔情
+      siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https://blog.bsgun.cn/
+      color: vip
+      tag: 主题魔改
+    - name: 一粒微尘
+      link: https://blog.667408.xyz
+      avatar: https://blog.667408.xyz/favicon.ico
+      descr: 撷光以望，纳星于瞳
+      siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https://blog.667408.xyz
+      color: vip
+      tag: 主题修改
     - name: 前尘小筑
       link: https://mnchen.cn/
       avatar: https://image.mnchen.cn/2023/12/mnochen.jpg
       descr: 虽多尘色染，犹见墨痕浓
       siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https://mnchen.cn/
+      color: vip
+      tag: 主题修改
+    - name: 铭心石刻
+      link: https://blog.kouseki.cn/
+      avatar: https://blog.kouseki.cn/imgs/avatar.webp
+      descr: 愿岁并谢，与友长兮
+      siteshot: https://blog.kouseki.cn/imgs/siteshot.webp
+      color: vip
+      tag: 主题修改
+    - name: Naokuo
+      link: https://www.naokuo.top
+      avatar: https://cdn.cbd.int/naokuo-blog/img/about/avatar-512x512.png
+      descr: 请给我来亿碗三鲜面
+      siteshot: https://cdn.cbd.int/naokuo-blog/img/about/www.naokuo.top.webp
+      color: vip
+      tag: 主题修改
+
+
 - class_name: 小伙伴
   class_desc: 那些人，那些事儿~
   flink_style: anzhiyu
@@ -29,16 +71,41 @@
       avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg
       descr: 生活明朗，万物可爱
       recommend: true
-    - name: MortalCat
+    - name: Mo的记事簿
       link: https://blog.xiowo.net/
       avatar: https://blog.xiowo.net/img/avatar.png
       descr: 万年鸽王，哈哈OvO
-      recommend: true
+      siteshot: https://bu.dusays.com/2025/06/17/685044d6bca69.png
+    - name: 张洪Heo
+      link: https://blog.zhheo.com/
+      avatar: https://img.zhheo.com/i/67d8fa75943e4.webp
+      descr: 分享设计与科技生活
+      siteshot: https://img.zhheo.com/i/67d8fb3c51399.webp
+    - name: 梦爱吃鱼
+      link: https://blog.bsgun.cn/
+      avatar: https://oss-cdn.bsgun.cn/logo/avatar.256.png
+      descr: 但愿日子清静抬头遇见的满是柔情
+      siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https://blog.bsgun.cn/
+    - name: 一粒微尘
+      link: https://blog.667408.xyz
+      avatar: https://blog.667408.xyz/favicon.ico
+      descr: 撷光以望，纳星于瞳
+      siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https://blog.667408.xyz
     - name: 前尘小筑
       link: https://mnchen.cn/
       avatar: https://image.mnchen.cn/2023/12/mnochen.jpg
       descr: 虽多尘色染，犹见墨痕浓
-      recommend: true
+      siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https://mnchen.cn/
+    - name: 铭心石刻
+      link: https://blog.kouseki.cn/
+      avatar: https://blog.kouseki.cn/imgs/avatar.webp
+      descr: 愿岁并谢，与友长兮
+      siteshot: https://blog.kouseki.cn/imgs/siteshot.webp
+    - name: Naokuo
+      link: https://www.naokuo.top
+      avatar: https://cdn.cbd.int/naokuo-blog/img/about/avatar-512x512.png
+      descr: 请给我来亿碗三鲜面
+      siteshot: https://cdn.cbd.int/naokuo-blog/img/about/www.naokuo.top.webp
 
 - class_name: 推荐服务商
   flink_style: flexcard

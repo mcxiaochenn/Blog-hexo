@@ -10,9 +10,12 @@ categories:
   - 教程
   - Arch Linux
 abbrlink: ae3
+cover: /img/Arch-Linux-Hyprland从安装到使用只需这一篇（保姆级喂饭超全教程）/hyprland.png
+summary: >-
+  这里是小尘AI，这篇文章详细介绍了从零开始在Arch
+  Linux上安装配置Hyprland桌面环境的完整流程。教程采用archinstall脚本简化安装过程，包含硬件准备、U盘配置、网络连接、分区设置、系统安装等关键步骤。特别强调了安装前的网络环境要求和分区注意事项，提供了详细的命令行操作指南。文章还涵盖了后续的中文字体安装、非官方源添加、yay包管理器配置以及Hyprland主题(HyDE)的安装方法。针对国内用户，特别说明了代理工具clash-verge的安装配置。教程最后提供了一键安装HyDE主题的便捷脚本，适合想要尝试Arch
+  Linux+Hyprland组合的新手用户参考。
 date: 2025-07-15 17:57:18
-
-cover: '/img/Arch-Linux-Hyprland从安装到使用只需这一篇（保姆级喂饭超全教程）/hyprland.png'
 ---
 
 # 开始前叠甲

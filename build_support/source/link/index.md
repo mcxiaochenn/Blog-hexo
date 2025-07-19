@@ -53,7 +53,7 @@ type: "link"
   link: https://blog.mcxiaochen.top/
   avatar: https://blog.mcxiaochen.top/avatar.png
   descr: 一个高中生UP搭的博客 QwQ
-  siteshot: https://i.ooxx.ooo/i/MThjZ.png
+  siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https://blog.mcxiaochen.top/
 ```
 <!-- endtab -->
 
@@ -64,7 +64,7 @@ type: "link"
     title: "尘の个人博客",
     intro: "一个高中生UP搭的博客 QwQ",
     link: "https://blog.mcxiaochen.top/",
-    image: "https://i.ooxx.ooo/i/MThjZ.png",
+    image: "https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https://blog.mcxiaochen.top/",
   }
 ```
 
@@ -85,8 +85,15 @@ type: "link"
 - 已添加[本博客](https://blog.mcxiaochen.top)的友情链接
 - 网站服务器在地球上
 - 网站可以大陆直连
-- 网站加载顺畅无卡顿或卡顿极其之少
+- 网站内容积极向上正能量并符合中华人民共和国法律
+- 网站可以在1分钟内加载完成首屏
 
 自行确认以上条件都符合就可以申请友链了
 
 我在看到后会马上加上de，如果没及时添加请见谅，可能在忙没看到，可以发邮件给我催催 QaQ
+
+> 注：
+> 未提供站点预览图的，本站会根据贵站链接调用以下 API 自动获取贵站的站点截图。
+> ```web
+> https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https://<你的域名>/
+> ```
