@@ -20,6 +20,7 @@
     "hexo-baidu-url-submit": "^0.0.6",
     "hexo-bilibili-bangumi": "^2.0.0",
     "hexo-butterfly-envelope": "^1.0.15",
+    "hexo-filter-auto-spacing": "^0.2.1",
     "hexo-filter-fcircle-anzhiyu": "^1.1.5",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-baidu-sitemap": "^0.1.9",
