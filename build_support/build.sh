@@ -3,7 +3,6 @@ rm -rf ../blog/*
 node link.js
 hexo bangumi -u
 hexo generate
-cp -r ./public/* ../blog/
-
 hexo s
+cp -r ./public/* ../blog/
 
