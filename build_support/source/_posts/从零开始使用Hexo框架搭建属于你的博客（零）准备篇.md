@@ -4,7 +4,6 @@ tags:
   - 保姆级
   - 教程
   - Hexo
-  - 部署
   - Web
   - 推广
 categories:
