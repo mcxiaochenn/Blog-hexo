@@ -7,6 +7,8 @@
   home_essay: true
   top_background: /img/congyu/congyu4.png
   essay_list:
+    - content: 改回了Cloudflare，并把评论服务器加入cf代理，就我这小破站还有人打我是真想不到。。。评论系统被打爆了。。。
+      date: 2025/07/21 15:43
     - content: 本站正式活过48小时啦！之后也会继续更新博客哦~
       date: 2025/07/19 15:00
     - content: 之前把经纬度写反了才导致了这 7108 公里的壮举，现在已经修好啦！
