@@ -66,6 +66,16 @@
       siteshot: https://cdn.cbd.int/naokuo-blog/img/about/www.naokuo.top.webp
       color: vip
       tag: 主题修改
+    - name: 冰月博客
+      link: https://blog.bingyue.top/
+      avatar: https://blog.bingyue.top/img/456.png
+      descr: Code is very fun
+      siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https://blog.bingyue.top/
+    - name: 未觉寻星
+      link: https://xyamzw.top
+      avatar: https://cdn.jsdelivr.net/gh/xyamzw/xyamzw/images/blog/avatar.png
+      descr: 弹奏自己的人生，演绎自己的全部
+      siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https://xyamzw.top
 
 
 - class_name: 小伙伴
@@ -120,6 +130,16 @@
       avatar: https://cdn.cbd.int/naokuo-blog/img/about/avatar-512x512.png
       descr: 请给我来亿碗三鲜面
       siteshot: https://cdn.cbd.int/naokuo-blog/img/about/www.naokuo.top.webp
+    - name: 冰月博客
+      link: https://blog.bingyue.top/
+      avatar: https://blog.bingyue.top/img/456.png
+      descr: Code is very fun
+      siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https://blog.bingyue.top/
+    - name: 未觉寻星
+      link: https://xyamzw.top
+      avatar: https://cdn.jsdelivr.net/gh/xyamzw/xyamzw/images/blog/avatar.png
+      descr: 弹奏自己的人生，演绎自己的全部
+      siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https://xyamzw.top
 
 - class_name: 推荐服务商
   flink_style: flexcard
