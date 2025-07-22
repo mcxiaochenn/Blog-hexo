@@ -140,6 +140,11 @@
       avatar: https://cdn.jsdelivr.net/gh/xyamzw/xyamzw/images/blog/avatar.png
       descr: 弹奏自己的人生，演绎自己的全部
       siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https://xyamzw.top
+    - name: 天影大侠
+      link: https://blog.skyshadow.fun/
+      avatar: https://weavatar.com/avatar/7388ea4765a319d5f83fea61c3236384?s=1000
+      descr: 天影大侠的小站,wow!
+      siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https://blog.skyshadow.fun/
 
 - class_name: 推荐服务商
   flink_style: flexcard

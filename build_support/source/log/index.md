@@ -14,6 +14,7 @@ layout: sitetime
 <!-- endtimeline -->
 
 <!-- timeline 07-21 -->
+今天是0721哦，Ciallo～(∠・ω< )⌒☆
 萌ICP过审，咱也是正规军辣（开个玩笑）
 维护友链并添加了RSS订阅
 改回了Cloudflare并把域名托管到Cloudflare
