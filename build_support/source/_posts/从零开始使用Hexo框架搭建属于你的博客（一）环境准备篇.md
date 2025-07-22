@@ -162,7 +162,7 @@ hexo s
 
 
 
-## 参考资料（排名部分先后）
+## 参考资料（排名不分先后）
 - https://zhuanlan.zhihu.com/p/392994381
 - https://hexo.fluid-dev.com/docs/guide/#%E5%85%B3%E4%BA%8E%E6%8C%87%E5%8D%97
 - https://markdown.com.cn/
