@@ -1,3 +1,4 @@
 User-agent: *
-Disallow: 
-Sitemap: http://blog.mcxiaochen.top/sitemap.xml
+Allow: /
+
+Sitemap: https://blog.mcxiaochen.top/sitemap.xml
