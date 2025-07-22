@@ -31,7 +31,7 @@ jobs:
 
     - name: Sync blog/ to ECS
       run: |
-        rsync -avz -e "ssh -p ${{ secrets.SSH_PORT }}" ./blog/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/blog/
+        rsync -avz -e "ssh -p ${{ secrets.SSH_PORT }}" ./blog/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/www/wwwroot/cnblog.mcxiaochen.top/
 
     - name: Print manual note
       if: github.event_name == 'workflow_dispatch'
