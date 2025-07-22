@@ -3,7 +3,16 @@ name: Deploy Prebuilt Hexo Blog to ECS
 on:
   push:
     branches:
-      - main  # 你推送 blog/ 目录时触发（可改为其他分支）
+      - main
+    paths:
+      - 'blog/**'  # 仅当 blog/ 文件夹更新时触发
+
+  workflow_dispatch:  # ✅ 手动触发器
+    inputs:
+      note:
+        description: '部署备注（可选）'
+        required: false
+        default: '手动部署触发'
 
 jobs:
   deploy:
@@ -22,4 +31,9 @@ jobs:
 
     - name: Sync blog/ to ECS
       run: |
-        rsync -avz -e "ssh -p ${{ secrets.SSH_PORT }}" ./blog/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/www/wwwroot/cnblog.mcxiaochen.top
+        rsync -avz -e "ssh -p ${{ secrets.SSH_PORT }}" ./blog/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/blog/
+
+    - name: Print manual note
+      if: github.event_name == 'workflow_dispatch'
+      run: |
+        echo "手动触发备注：${{ github.event.inputs.note }}"
