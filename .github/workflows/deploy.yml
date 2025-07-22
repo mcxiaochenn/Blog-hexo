@@ -1,0 +1,25 @@
+name: Deploy Prebuilt Hexo Blog to ECS
+
+on:
+  push:
+    branches:
+      - main  # 你推送 blog/ 目录时触发（可改为其他分支）
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+
+    - name: Setup SSH
+      run: |
+        mkdir -p ~/.ssh
+        echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
+        chmod 600 ~/.ssh/id_ed25519
+        ssh-keyscan -p ${{ secrets.SSH_PORT }} ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
+
+    - name: Sync blog/ to ECS
+      run: |
+        rsync -avz -e "ssh -p ${{ secrets.SSH_PORT }}" ./blog/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/www/wwwroot/cnblog.mcxiaochen.top
