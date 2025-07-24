@@ -7,8 +7,12 @@
   home_essay: true
   top_background: /img/congyu/congyu4.png
   essay_list:
+    - content: 从Cloudflare Pages迁移到了阿里云轻量应用服务器（香港），阿里云这服务器续费太恐怖了，用不起。。。听MortalCat说netlify的体验还可以，先换过来试试看
+      date: 2025/07/24 17:54
     - content: 改回了Cloudflare，并把评论服务器加入cf代理，就我这小破站还有人打我是真想不到。。。评论系统被打爆了。。。
       date: 2025/07/21 15:43
+    - content: 今天是0721哦，Ciallo～(∠・ω< )⌒☆
+      date: 2025/07/21 07:21
     - content: 本站正式活过48小时啦！之后也会继续更新博客哦~
       date: 2025/07/19 15:00
     - content: 之前把经纬度写反了才导致了这 7108 公里的壮举，现在已经修好啦！

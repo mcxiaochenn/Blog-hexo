@@ -8,9 +8,13 @@ layout: sitetime
 
 {% timeline 2025 %}
 
+<!-- timeline 07-24 -->
+从阿里云轻量应用服务器（香港）迁移到了netlify,阿里云这服务器续费太恐怖了，用不起。。。听MortalCat说netlify的体验还可以，先换过来试试看
+<!-- endtimeline -->
+
 <!-- timeline 07-22 -->
 从Cloudflare Pages迁移到了阿里云轻量应用服务器（香港），国内访问体验好了很多很多
-放弃使用安全跳转插件（好像有大问题，后续结局会加回来）
+放弃使用安全跳转插件（好像有大问题，后续弄好后会加回来）
 <!-- endtimeline -->
 
 <!-- timeline 07-21 -->
