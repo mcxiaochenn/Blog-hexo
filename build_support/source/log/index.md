@@ -11,6 +11,7 @@ layout: sitetime
 <!-- timeline 07-27 -->
 最近忙于出门长途骑行的路线规划，博客更新先咕了（doge）
 添加新的友链
+小改配色
 <!-- endtimeline -->
 
 <!-- timeline 07-24 -->
