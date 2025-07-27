@@ -143,8 +143,13 @@
     - name: 天影大侠
       link: https://blog.skyshadow.fun/
       avatar: https://weavatar.com/avatar/7388ea4765a319d5f83fea61c3236384?s=1000
-      descr: 天影大侠的小站,wow!
+      descr: 在互联网留下一个脚印
       siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https://blog.skyshadow.fun/
+    - name: 星辰の笔记
+      link: https://blog.strarry.top/
+      avatar: https://blog.strarry.top/avatar.jpg
+      descr: Code | Think | Share | Repeat
+      siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https://blog.strarry.top/
 
 - class_name: 推荐服务商
   flink_style: flexcard

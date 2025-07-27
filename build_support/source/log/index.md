@@ -8,6 +8,11 @@ layout: sitetime
 
 {% timeline 2025 %}
 
+<!-- timeline 07-27 -->
+最近忙于出门长途骑行的路线规划，博客更新先咕了（doge）
+添加新的友链
+<!-- endtimeline -->
+
 <!-- timeline 07-24 -->
 从阿里云轻量应用服务器（香港）迁移到了netlify,阿里云这服务器续费太恐怖了，用不起。。。听MortalCat说netlify的体验还可以，先换过来试试看
 <!-- endtimeline -->
