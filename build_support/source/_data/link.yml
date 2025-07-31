@@ -150,6 +150,11 @@
       avatar: https://blog.strarry.top/avatar.jpg
       descr: Code | Think | Share | Repeat
       siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https://blog.strarry.top/
+    - name: LEOBLOG
+      link: https://leoblog.cc/
+      avatar: https://bu.dusays.com/2025/05/30/6838a5699eec2.png
+      descr: 玻璃晴朗，橘子辉煌~✨
+      siteshot: https://bu.dusays.com/2025/06/04/683f7fe90cbc7.png
 
 - class_name: 推荐服务商
   flink_style: flexcard
