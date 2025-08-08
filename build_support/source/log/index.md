@@ -8,6 +8,11 @@ layout: sitetime
 
 {% timeline 2025 %}
 
+<!-- timeline 08-08 -->
+修复评论昵称获取
+骑车规划完了，准备环青海湖，今晚就要出发啦！
+<!-- endtimeline -->
+
 <!-- timeline 07-27 -->
 最近忙于出门长途骑行的路线规划，博客更新先咕了（doge）
 添加新的友链
