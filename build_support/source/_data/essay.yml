@@ -7,8 +7,20 @@
   home_essay: true
   top_background: /img/congyu/congyu4.png
   essay_list:
+    - content: 修复评论昵称获取，骑车规划完了，准备环青海湖，今晚就要出发啦！
+      date: 2025/08/08 21:44
+    - content: 不知道说啥，推首歌吧
+      date: 2025/08/07 08:48
+      aplayer:
+        server: netease
+        id: 1487212142
+      link: https://music.163.com/#/song?id=1487212142
+    - content: 最近忙于出门长途骑行的路线规划，博客更新先咕了（doge），小改了一下配色
+      date: 2025/07/27 16:48
     - content: 阿里云这服务器续费太恐怖了，用不起。。。听MortalCat说netlify的体验还可以，先换过来试试看
       date: 2025/07/24 17:54
+    - content: 如果你正感到疲惫，希望这里能给你片刻的安慰。
+      date: 2025/07/24 00:01
     - content: 从Cloudflare Pages迁移到了阿里云轻量应用服务器（香港）。
       date: 2025/07/22 18:38
     - content: 改回了Cloudflare，并把评论服务器加入cf代理，就我这小破站还有人打我是真想不到。。。评论系统被打爆了。。。
@@ -28,4 +40,4 @@
     - content: 感觉要累死了，终于把博客搭的7788了，希望能活的长久吧。。。
       date: 2025/07/18 23:21
     - content: 换了鸿蒙字体，看着顺眼多了
-      date: 2025/07/18 21:46
+      date: 2025/07/17 14:59

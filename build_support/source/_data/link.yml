@@ -10,6 +10,12 @@
       siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https://blog.mcxiaochen.top/
       color: vip
       tag: 系本站啦
+    - name: 十年之约
+      link: https://www.foreverblog.cn/
+      avatar: https://www.foreverblog.cn/favicon.ico
+      descr: 一个人的寂寞，一群人的狂欢。
+      siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https://www.foreverblog.cn/
+      tag: 十年之约
     - name: 安知鱼
       link: https://blog.anheyu.com/
       avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg
@@ -89,7 +95,12 @@
       descr: 一个高中生UP搭的博客 QwQ
       siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https://blog.mcxiaochen.top/
       color: vip
-      tag: 系本人啦
+    - name: 十年之约
+      link: https://www.foreverblog.cn/
+      avatar: https://www.foreverblog.cn/favicon.ico
+      descr: 一个人的寂寞，一群人的狂欢。
+      siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https://www.foreverblog.cn/
+      tag: 十年之约
     - name: 安知鱼
       link: https://blog.anheyu.com/
       avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg
