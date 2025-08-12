@@ -10,6 +10,7 @@ layout: sitetime
 
 <!-- timeline 08-12 -->
 更新个人页，完善人格测试
+修复一个日期错误
 <!-- endtimeline -->
 
 <!-- timeline 08-08 -->
