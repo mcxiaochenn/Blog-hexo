@@ -8,6 +8,10 @@ layout: sitetime
 
 {% timeline 2025 %}
 
+<!-- timeline 08-12 -->
+更新个人页，完善人格测试
+<!-- endtimeline -->
+
 <!-- timeline 08-08 -->
 修复评论昵称获取
 骑车规划完了，准备环青海湖，今晚就要出发啦！
