@@ -243,21 +243,21 @@
           .footer-line span {
             user-select: none;
           }
-          
+
           .footer-owner {
             display: flex;
             align-items: center;
             justify-content: center; /* 居中对齐 */
-            gap: 0.5rem; /* 统一间距 */
+            gap: 0.01rem; /* 统一间距 */
           }
 
-.footer-owner .dot {
-  width: 4px;
-  height: 4px;
-  border-radius: 50%;
-  background: currentColor;
-  display: inline-block;
-}
+          .footer-owner .dot {
+            width: 4px;
+            height: 4px;
+            border-radius: 50%;
+            background: currentColor;
+            display: inline-block;
+          }
 
         </style>
       </head>
