@@ -270,6 +270,13 @@
   </url>
   
   <url>
+    <loc>https://blog.mcxiaochen.top/categories/%E6%95%99%E7%A8%8B/Hexo/</loc>
+    <lastmod>2025-08-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.mcxiaochen.top/categories/%E6%95%99%E7%A8%8B/Arch-Linux/</loc>
     <lastmod>2025-08-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -278,13 +285,6 @@
   
   <url>
     <loc>https://blog.mcxiaochen.top/categories/%E6%95%99%E7%A8%8B/IOS%E6%8A%98%E8%85%BE/</loc>
-    <lastmod>2025-08-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mcxiaochen.top/categories/%E6%95%99%E7%A8%8B/Hexo/</loc>
     <lastmod>2025-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
