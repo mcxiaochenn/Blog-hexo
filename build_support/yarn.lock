@@ -1765,14 +1765,6 @@ hexo-generator-category@^2.0.0:
   dependencies:
     hexo-pagination "3.0.0"
 
-hexo-generator-feed@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.npmjs.org/hexo-generator-feed/-/hexo-generator-feed-3.0.0.tgz"
-  integrity sha512-Jo35VSRSNeMitS2JmjCq3OHAXXYU4+JIODujHtubdG/NRj2++b3Tgyz9pwTmROx6Yxr2php/hC8og5AGZHh8UQ==
-  dependencies:
-    hexo-util "^2.1.0"
-    nunjucks "^3.0.0"
-
 hexo-generator-index@^4.0.0:
   version "4.0.0"
   resolved "https://registry.npmjs.org/hexo-generator-index/-/hexo-generator-index-4.0.0.tgz"
@@ -1837,6 +1829,14 @@ hexo-pagination@3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/hexo-pagination/-/hexo-pagination-3.0.0.tgz"
   integrity sha512-8oo1iozloZo7TojPVYg4IxL3SJKCBdSJ908fTlIxIK7TWJIKdYnQlW31+12DBJ0NhVZA/lZisPObGF08wT8fKw==
+
+hexo-pretty-feed@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.npmjs.org/hexo-pretty-feed/-/hexo-pretty-feed-1.1.0.tgz"
+  integrity sha512-ZSNj14FYv1inwLBz960ZIWxPTVmjXtRFR+/6U5IPhm2qBGLgj5nD3LyizeaaSoJLXhmyhPHgykxpvGBs/ATvSg==
+  dependencies:
+    hexo-util "^3.0.1"
+    nunjucks "^3.2.3"
 
 hexo-renderer-ejs@^2.0.0:
   version "2.0.0"
@@ -2949,7 +2949,7 @@ nth-check@~1.0.1:
   dependencies:
     boolbase "~1.0.0"
 
-nunjucks@^3.0.0, nunjucks@^3.0.1, nunjucks@^3.1.3, nunjucks@^3.1.6, nunjucks@^3.2.3:
+nunjucks@^3.0.1, nunjucks@^3.1.3, nunjucks@^3.1.6, nunjucks@^3.2.3:
   version "3.2.4"
   resolved "https://registry.npmjs.org/nunjucks/-/nunjucks-3.2.4.tgz"
   integrity sha512-26XRV6BhkgK0VOxfbU5cQI+ICFUtMLixv1noZn1tGU38kQH5A5nmmbk/O45xdyBhD1esk47nKrY0mvQpZIhRjQ==
