@@ -108,6 +108,12 @@ date: 2025-08-16 11:09:36
 5. 重复 ``Yes`` -> ``Got it`` -> ``Keep App Extensions（Use Main Profile）`` -> 好辣！
 6. 退出后台再进，回到LiveContainer界面，点击``设置``，``刷新来自SideStore的证书``，按照引导导入
 
+### 续签相关
+
+{% link 一键续签快捷指令,Apple Inc.,https://www.icloud.com/shortcuts/6d9570626e3b49d18ee34755297773b9 %}
+
+快捷指令：
+
 ### 大功告成
 
 完成后你就可以愉快使用此工具了 :)
