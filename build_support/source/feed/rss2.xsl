@@ -72,7 +72,7 @@
             background-color: var(--bg-color);
             min-height: 100vh;
             -webkit-font-smoothing: antialiased;
-            background-image: url('https://bing.mcxiaochen.top/img/wallpaper/ふ一り.jpg');
+            background-image: url('https://blog.mcxiaochen.top/img/wallpaper/%E3%81%B5%E4%B8%80%E3%82%8A.jpg');
             background-size: cover;
             background-attachment: fixed;
             background-position: center;
@@ -243,6 +243,22 @@
           .footer-line span {
             user-select: none;
           }
+
+          .footer-owner {
+            display: flex;
+            align-items: center;
+            justify-content: center; /* 居中对齐 */
+            gap: 0.01rem; /* 统一间距 */
+          }
+
+          .footer-owner .dot {
+            width: 4px;
+            height: 4px;
+            border-radius: 50%;
+            background: currentColor;
+            display: inline-block;
+          }
+
         </style>
       </head>
       <body>
@@ -319,8 +335,10 @@
               <span>|</span>
               <a href="https://atom.io/" target="_blank" rel="nofollow noopener noreferrer">Atom</a>
             </div>
-            <div class="footer-line">
-              <span>© 2025 •</span> <a href="https://blog.mcxiaochen.top/" target="_blank" rel="nofollow noopener noreferrer">辰渊尘</a>
+            <div class="footer-line footer-owner">
+              <span>© 2025</span>
+              <span class="dot"></span>
+              <a href="https://blog.mcxiaochen.top/" target="_blank" rel="nofollow noopener noreferrer">辰渊尘</a>
             </div>
           </footer>
 
