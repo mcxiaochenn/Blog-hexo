@@ -13,7 +13,7 @@ layout: sitetime
 侧边栏添加倒计时
 atom订阅美化
 新增ChenDusk-Cover页
-接入又拍云
+接入又拍云；这与我想象的不一样啊，没法给Twikoo用，而且没成年域名备案不了，先这样吧，暂时不想动了，后续考虑删除
 <!-- endtimeline -->
 
 <!-- timeline 08-12 -->
