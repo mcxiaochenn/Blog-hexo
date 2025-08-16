@@ -320,7 +320,7 @@
               <a href="https://atom.io/" target="_blank" rel="nofollow noopener noreferrer">Atom</a>
             </div>
             <div class="footer-line">
-              <span>© 2025 •</span><a href="https://blog.mcxiaochen.top/" target="_blank" rel="nofollow noopener noreferrer">辰渊尘</a>
+              <span>© 2025 •</span> <a href="https://blog.mcxiaochen.top/" target="_blank" rel="nofollow noopener noreferrer">辰渊尘</a>
             </div>
           </footer>
 
