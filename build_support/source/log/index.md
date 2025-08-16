@@ -13,6 +13,7 @@ layout: sitetime
 侧边栏添加倒计时
 atom订阅美化
 新增ChenDusk-Cover页
+接入又拍云
 <!-- endtimeline -->
 
 <!-- timeline 08-12 -->
