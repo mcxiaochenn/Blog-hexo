@@ -16,7 +16,7 @@ date: 2025-07-29 14:16:08
 
 还在用牛蛙助手/ NB广告助手吗？别用那玩意了，吃相难看还限制安装app数量，按照此教程正确安装SideStore和LiveContainer，你就可以无限安装/多开软件，不受Apple的3软件数量限制
 
-> 本文已过时，请[看新一篇](http://localhost:4000/posts/801b/)，使用了LiveContainer二合一版本，可以少占用个签名空位，获取配置文件使用图形化界面，操作更顺畅~
+> 本文已过时，请[看新一篇](/posts/801b/)，使用了LiveContainer二合一版本，可以少占用个签名空位，获取配置文件使用图形化界面，操作更顺畅~
 
 ## 名词解释
 
@@ -99,7 +99,7 @@ LiveContainer是一个无需实际安装即可运行iOS应用程序的应用程�
 
 ## 后日谈
 
-相信你看完这篇文章已经学会如何正确安装并使用SideStore和LiveContainer了，下篇**进阶篇**将教你如何配置JIT服务来愉快游玩例如Amethyst（PojavLauncher IOS）这样需要JIT权限的模拟器/启动器
+相信你看完这篇文章已经学会如何正确安装并使用SideStore和LiveContainer了，下下篇**进阶篇**将教你如何配置JIT服务来愉快游玩例如Amethyst（PojavLauncher IOS）这样需要JIT权限的模拟器/启动器
 
 
 
@@ -110,7 +110,7 @@ LiveContainer是一个无需实际安装即可运行iOS应用程序的应用程�
 
 
 
-
+---
 ## 参考资料（排名不分前后）
 - https://docs.sidestore.io/zh/docs/intro
 - https://sidestore.io/#get-started

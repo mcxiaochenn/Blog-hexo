@@ -8,8 +8,11 @@ categories:
   - 教程
   - IOS折腾
 cover: /img/这可能是iOS自签的版本答案，二合一LiveContainer教程来辣！/logo.webp
-summary: 这里是小尘AI，这篇文章还没生成。。。
 abbrlink: 801b
+summary: >-
+  这里是小尘AI，这篇文章详细介绍了在iOS设备上使用LiveContainer+SideStore二合一版本进行自签的完整教程。文章从准备工作开始，包括需要的美区Apple
+  ID、Windows电脑和必要软件，然后逐步讲解AltServer安装、SideStore配置、idevice
+  pair工具使用、文件传输到手机等关键步骤。特别强调了StosVPN的安装和使用注意事项，以及如何解决常见的iCloud媒体功能缺失问题。教程还提供了详细的错误处理方法，并附上参考文档和视频链接，帮助用户顺利完成自签过程。最后作者预告了下一期关于JIT启动的教程内容。
 date: 2025-08-16 11:09:36
 ---
 
@@ -155,7 +158,7 @@ Windows Media Player 可在 PC 上播放视频和音频文件。你需要有 Med
 
 
 
-
+---
 ## 参考资料（排名不分前后）
 - https://docs.sidestore.io/zh/docs/intro
 - https://sidestore.io/#get-started
