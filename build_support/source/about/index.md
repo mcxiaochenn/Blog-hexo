@@ -8,13 +8,13 @@ comments: false
 type: "about"
 ---
 
-嗨这里是小尘博客关于页，我是小尘！欢迎你来到我的站点！
+嗨！这里是辰渊尘的博客关于页，我是小尘！欢迎你来到我的站点！
 
-鄙人2009年出身于 浙江省嘉兴市平湖市，目前在上职业类学校，是位高中生辣，当前高一。
+鄙人2009年出身于 浙江省嘉兴市平湖市，目前在上职业类学校，是位高中生辣，即将高二。
 
 喜欢折腾一些奇奇怪怪的东西，喜欢骑车，热爱生活，喜欢捣鼓科技数码，还是玩机佬。
 
-真名 陆逸尘 大伙们可以叫我包括但不限于：**小尘**、**阿尘**、**尘**、**尘桑** 等等等等
+大伙们可以叫我包括但不限于：**小尘**、**阿尘**、**尘**、**尘桑** 等等等等
 
 大众前社恐，实则慢热，和熟人比较放得开 :(
 
@@ -32,6 +32,8 @@ type: "about"
 
 ## 我的域名
 
+> 刚换完名字，还在考虑要不要把域名一起换了，换的话我应该会用ChenDusk
+
 mcxiaochen.top - 现在在用的
 
 ~~mcxiaochen.icu~~ - 这个域名用了一年，但阿里云第二年给我涨价了，一个icu域名居然要99一年！！！
@@ -43,15 +45,15 @@ mcxiaochen.top - 现在在用的
 ## 社交平台
 
 - Email: <a href="mailto:mcxiaochenn.yyds@gmail.com">mcxiaochenn.yyds@gmail.com</a>
-- Coolapk: [@我不是尘桑](https://www.coolapk.com/u/21508887)
+- Coolapk: [@辰渊尘](https://www.coolapk.com/u/21508887)
 - Github: [@mcxiaochenn](https://github.com/mcxiaochenn)
-- bilibili: [@等等是小尘](https://space.bilibili.com/123757127)
+- bilibili: [@辰渊尘Dusk](https://space.bilibili.com/123757127)
 
 ## 关于本站
 
 域名：[阿里云](https://aliyun.com/)
 Hexo 文件托管于：[GitHub](https://github.com/)
-Hexo 部署：[netlify](https://www.netlify.com/)
+Hexo 部署：[Netlify](https://www.netlify.com/)
 后端服务提供：[Rainyun 润雨科技](https://www.rainyun.com/blxc123_)
 主题：[ANZHIYU](https://docs.anheyu.com/) with [xcTheme](https://blog.mcxiaochen.top/)
 
