@@ -21,7 +21,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <title>
           <xsl:value-of select="$title"/>
- - 清羽飞扬の订阅源</title>
+ - 辰渊尘の订阅源</title>
         <style>
           :root {
             --bg-color: #f8fafc;
@@ -72,7 +72,7 @@
             background-color: var(--bg-color);
             min-height: 100vh;
             -webkit-font-smoothing: antialiased;
-            background-image: url('https://bing.mcxiaochen.top/daily.webp');
+            background-image: url('https://bing.mcxiaochen.top/img/wallpaper/ふ一り.jpg');
             background-size: cover;
             background-attachment: fixed;
             background-position: center;
@@ -320,10 +320,7 @@
               <a href="https://atom.io/" target="_blank" rel="nofollow noopener noreferrer">Atom</a>
             </div>
             <div class="footer-line">
-              <span>© 2025 • mcxiaochenn</span>
-            </div>
-            <div class="footer-line">
-              <a href="https://blog.mcxiaochen.top/" target="_blank" rel="nofollow noopener noreferrer">辰渊尘</a>
+              <span>© 2025 • </span><a href="https://blog.mcxiaochen.top/" target="_blank" rel="nofollow noopener noreferrer">辰渊尘</a>
             </div>
           </footer>
 
