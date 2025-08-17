@@ -48,6 +48,7 @@ mcxiaochen.top - 现在在用的
 - Coolapk: [@辰渊尘](https://www.coolapk.com/u/21508887)
 - Github: [@mcxiaochenn](https://github.com/mcxiaochenn)
 - bilibili: [@辰渊尘Dusk](https://space.bilibili.com/123757127)
+- QQ交流群：[1021796828](https://qm.qq.com/cgi-bin/qm/qr?k=3QBW-67mUFuCz84Heh8p31EDHtam68zo&jump_from=webapi&authKey=nZLoO4R2JmZ0qjaWDlLZ5FilZiVLAPFCvFveGmuZd8m1E0XmHPeJcsi+Ut3bHBCE)
 
 ## 关于本站
 

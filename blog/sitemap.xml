@@ -11,6 +11,15 @@
   </url>
   
   <url>
+    <loc>https://blog.mcxiaochen.top/about/index.html</loc>
+    
+    <lastmod>2025-08-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.mcxiaochen.top/log/index.html</loc>
     
     <lastmod>2025-08-17</lastmod>
@@ -48,15 +57,6 @@
   
   <url>
     <loc>https://blog.mcxiaochen.top/posts/5a0d/</loc>
-    
-    <lastmod>2025-08-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mcxiaochen.top/about/index.html</loc>
     
     <lastmod>2025-08-16</lastmod>
     

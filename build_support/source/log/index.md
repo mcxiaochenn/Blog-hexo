@@ -13,6 +13,11 @@ layout: sitetime
 添加茶icp备案
 修改信笺图
 修改邮件通知界面
+修改配色https://color.dumogu.top/color/info/ZKh0EWKJFA
+修改关于我
+优化页面显示
+维护友链
+加了个小彩蛋，欢迎翻仓库提交记录~
 <!-- endtimeline -->
 
 <!-- timeline 08-16 -->

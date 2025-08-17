@@ -166,6 +166,11 @@
       avatar: https://bu.dusays.com/2025/05/30/6838a5699eec2.png
       descr: 玻璃晴朗，橘子辉煌~✨
       siteshot: https://bu.dusays.com/2025/06/04/683f7fe90cbc7.png
+    - name: 彬红茶日记
+      link: https://note.redcha.cn
+      avatar: https://note.redcha.cn/upload/favicon-256x256.png
+      descr: 彬红茶的个人笔记📒
+      siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https://note.redcha.cn/
 
 - class_name: 推荐服务商
   flink_style: flexcard
