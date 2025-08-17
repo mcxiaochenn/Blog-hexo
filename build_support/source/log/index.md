@@ -8,6 +8,10 @@ layout: sitetime
 
 {% timeline 2025 %}
 
+<!-- timeline 08-18 -->
+替换umami实现为Vercel（此前数据全丢😭）
+<!-- endtimeline -->
+
 <!-- timeline 08-17 -->
 移除又拍云（没想到存储也要备案，果咩那赛只能删掉了。。。准备试试看cfo2不知道储蓄卡能不能绑定）
 添加茶icp备案
