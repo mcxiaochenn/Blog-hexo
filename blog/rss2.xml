@@ -15,8 +15,41 @@
     <atom:link href="https://blog.mcxiaochen.top/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>05后，高中生，喜欢什么就做什么，内容偏技术向和保姆级，希望能对你有用QwQ</description>
-    <pubDate>Sat, 16 Aug 2025 08:47:43 GMT</pubDate>
+    <pubDate>Sun, 17 Aug 2025 14:46:00 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>有关建站一个月以来的一点点感想和后续计划</title>
+      <link>https://blog.mcxiaochen.top/posts/7a7c/</link>
+      <guid>https://blog.mcxiaochen.top/posts/7a7c/</guid>
+      <pubDate>Sun, 17 Aug 2025 12:59:51 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;# 前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言 &lt;/h2&gt;&lt;p&gt;</description>
+          
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h2 id="前言"><a href="# 前言" class="headerlink" title="前言"></a>前言 </h2><p> 时间过的真的很快，不知不觉中博客已经建立一个月了，暑假余额也不足了。在这段时间里我完成了博客的搭建到上线。这一个月的时间也让我收获颇丰。</p><h2 id="为什么要搭建博客"><a href="# 为什么要搭建博客" class="headerlink" title="为什么要搭建博客"></a>为什么要搭建博客 </h2><p> 其实也没什么豪言壮志，单纯只是宅在家里没事干，所以搭建了这个博客。在搭建的时候我就已经有了长期维护更新下去的心理准备，至于什么推动着我呢？——<strong>我想在互联网上留下属于我的一笔</strong></p><p>网络上显然有无数平台可以发声，但大多数内容都被算法和流量规则所裹挟。相比之下，个人博客自由得多，我可以不受限制地记录下自己想写的东西，无论是技术类教程，还是日常心得，亦或是一些零碎的思考。在这里不需要迎合谁的口味，只要我愿意，哪怕只是日常的一句牢骚，也能留在属于我的站点上。</p><p>除此之外，博客还像一个数字档案馆，能够把我的成长、折腾的痕迹都保存下来。或许几年后再回头翻看，会发现自己一路走来的轨迹和变化，这种感觉是其他社交平台很难带来的。</p><p>所以说，搭建博客对我来说既是兴趣，也是坚持，更是一种对自我的小小记录。或许没有多少人会来读，但只要我还在更新，它就一直有意义。</p><h2 id="搭建历程"><a href="# 搭建历程" class="headerlink" title="搭建历程"></a>搭建历程 </h2><p> 得益于我爱写 <a href="https://blog.mcxiaochen.top/log/"> 更新日志 </a> 的习惯，我可以借此回忆起完整的搭建过程</p><p>在有了搭建博客的念头之后，我就开始寻找各种教程，与此同时我已经开始构思起第一篇文章的主题与内容（是的没错，就是 Arch 入门那一篇），这也是截止此文发布之前我最长的一篇文章。</p><p>既然是第一次，那么自然少不了各种绕弯路，虽然已经想好要使用纯静态而不是 wp 作为底层（成本更低，有各种免费托管商），但那时的我还是过于理想了，鄙人只学过最基本的 HTML 语法却试图从零开始手搓博客，遂于 1 小时后放弃，转而寻找成品框架，经过观察各个人博客与各种教程后，选择了 Hexo 作为底层，fluid 作为主题（第二个坑）。</p><p>在经过一下午的奋斗之后，我终于把基本参数摸透设置好，并迫不及待的撰写了我的第一篇文章，最后，编译上线，此时时间已是第二天中午（是的，我彻夜未眠）。然后我很快就不满足于现状——它太简单了。</p><p>相比其他美轮美奂、眼花缭乱的博客，它有点过于简单了，就像 <strong>国产安卓系统 </strong> 和 <strong> 谷歌原生系统 </strong> 的区别，有些人可能觉得极简的清新，更贴合博客的场景，但我觉得它极简过头了，于是开始搜刮教程，照着一步步操作，在搜寻美化教程的过程中，另一个主题<a href="https://blog.anheyu.com/"><strong>anzhiyu</strong></a> 进入了我的视野。但我不想半途而废，继续美化着我的博客。</p><p>然后。。。它就崩了，打开就报错，望着浏览器控制台的一堆红色报错，我陷入了沉思。是时候了，我想。</p><p>于是我删除了所有的文件，只保留了我第一篇教程的 md 文件，因为我知道，哪怕换了主题，markdown 文档依旧可以保持可读，只需把它丢到新站的 <code>_posts</code> 文件夹中即可。</p><p>所以，我把搭了两天的博客推倒重来了。这次我改为了 anzhiyu 主题，有了第一次建站失败的经验，我这次只用了半天的时间就完成了网站的基本搭建和上线，随后的一个月，我陆陆续续的微调网站，到了现在这个样子。</p><h2 id="有关 DDOS"><a href="# 有关 DDOS" class="headerlink" title="有关 DDOS"></a>有关 DDOS</h2><p>我也不知道招谁惹谁了，就这么个连图标都还没被搜索站点收录，日浏览量不超过 1k 的小破站在短短一个月内被攻击了两次，</p><h2 id="小结"><a href="# 小结" class="headerlink" title="小结"></a>小结 </h2><p> 总而言之，博客如果不出意外，今后也不会有太大变动，我会持续维护和更新，欢迎大家监督我。</p><p>在这个过程中，我也深刻体会到“人外有人，天外有天”的含义。从初中到高中，我在同龄人中一直算是偏科（偏信息）突出，只要和信息技术相关的内容，我总能取得不错的成绩。然而放眼全国，我发现自己还远远不够出色——不仅同龄人中有比我更强的，连比我小的人也有很多非常厉害的，这让我意识到自己并没有极大的优势。</p><p>这种认知，反而给了我持续学习的动力，让我明白只有不断努力，才能真正提升自己。</p><h2 id="后续计划"><a href="# 后续计划" class="headerlink" title="后续计划"></a>后续计划 </h2><p> 短期内没啥大变动，主要就是学生嘛，资金少，缺少家里人支持实在无力承担云服务器的高昂费用，好在没有用付费 CDN 或者防御服务，不然被打这两次我可以直接闭站跑路了，就算如此，算上踩的坑，我这一个月花费在这网站上的费用已经超过¥500 了，别问，问就是我也不知道花哪了。</p><p>接下去就是坐等 8 月 19 日，我年满 16 周岁，然后就可以办储蓄卡了，之后呢就是把评论系统丢到 cf 上（因为 cf 的 R2 对象存储需要绑银行卡才能使用），此前我部署在自己买的云服务器上，被打之后目前的解决方案是 Vercel+MangoSQL，虽然 512MB 也够使用很长一段时间了，但总觉得不太安心，等办完储蓄卡就换到 cf 上</p><p>然后我相信随着更新，我的博客图片量绝对会到一个恐怖的数值，到那时我现在的解决方案（丢站点目录）绝对不可取，不说容量问题，光加载速度就极其感人。</p><p>接着就是等博客 1 岁的时候加入 <a href="https://www.foreverblog.cn/"> 十年之约</a>，有了标准督促，也能让我博客质量更高，有更多维护的动力。</p><p>最后自然是最重要的事情，那就是备案，现在因为年龄问题，我连 icp 备案的资格都没有，国家能不能在这方面降低点要求啊😭😭😭</p><h2 id="计划进度"><a href="# 计划进度" class="headerlink" title="计划进度"></a>计划进度</h2><div class='checkbox checked'><input type="checkbox" checked="checked"/>            <p>建站</p>            </div><div class='checkbox'><input type="checkbox" />            <p>迁移评论系统到 Cloudflare R2 存储</p>            </div><div class='checkbox'><input type="checkbox" />            <p>自建图床</p>            </div><div class='checkbox'><input type="checkbox" />            <p>加入十年之约</p>            </div><div class='checkbox'><input type="checkbox" />            <p>获得备案</p>            </div><h2 id="尾声"><a href="# 尾声" class="headerlink" title="尾声"></a>尾声 </h2><p> 暂时就想了那么多吧，这个计划进度我会同步到个人页的，在这几条完成后这篇文章应该就不会再更新了，更新应该也是出新文章。</p>]]></content:encoded>
+      
+      
+      <category domain="https://blog.mcxiaochen.top/categories/%E6%97%A5%E5%B8%B8/">日常</category>
+      
+      
+      <category domain="https://blog.mcxiaochen.top/tags/%E6%9D%82%E8%B0%88/">杂谈</category>
+      
+      <category domain="https://blog.mcxiaochen.top/tags/%E7%94%9F%E6%B4%BB/">生活</category>
+      
+      <category domain="https://blog.mcxiaochen.top/tags/%E6%97%A5%E5%B8%B8/">日常</category>
+      
+      
+      <comments>https://blog.mcxiaochen.top/posts/7a7c/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>这可能是 iOS 自签的版本答案，二合一 LiveContainer 教程来辣！</title>
@@ -113,8 +146,6 @@
       
       <category domain="https://blog.mcxiaochen.top/categories/%E6%95%99%E7%A8%8B/Hexo/">Hexo</category>
       
-      <category domain="https://blog.mcxiaochen.top/categories/%E6%95%99%E7%A8%8B/Hexo/%E6%8E%A8%E5%B9%BF/">推广</category>
-      
       
       <category domain="https://blog.mcxiaochen.top/tags/%E4%BF%9D%E5%A7%86%E7%BA%A7/">保姆级</category>
       
@@ -152,8 +183,6 @@
       <category domain="https://blog.mcxiaochen.top/categories/%E6%95%99%E7%A8%8B/">教程</category>
       
       <category domain="https://blog.mcxiaochen.top/categories/%E6%95%99%E7%A8%8B/Hexo/">Hexo</category>
-      
-      <category domain="https://blog.mcxiaochen.top/categories/%E6%95%99%E7%A8%8B/Hexo/%E6%8E%A8%E5%B9%BF/">推广</category>
       
       
       <category domain="https://blog.mcxiaochen.top/tags/%E4%BF%9D%E5%A7%86%E7%BA%A7/">保姆级</category>

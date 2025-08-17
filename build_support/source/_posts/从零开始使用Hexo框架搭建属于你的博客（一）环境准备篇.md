@@ -8,7 +8,6 @@ tags:
 categories:
   - 教程
   - Hexo
-  - 推广
 cover: /img/从零开始使用Hexo框架搭建属于你的博客/1/Hexo1.png
 abbrlink: e305
 summary: >-
