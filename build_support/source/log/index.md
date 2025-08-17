@@ -10,6 +10,7 @@ layout: sitetime
 
 <!-- timeline 08-18 -->
 替换umami实现为Vercel（此前数据全丢😭）
+umami api通过cfworker实现
 <!-- endtimeline -->
 
 <!-- timeline 08-17 -->
