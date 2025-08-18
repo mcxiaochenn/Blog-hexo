@@ -98,6 +98,12 @@
     music_title: 说唱、Rap、嘻哈说唱
     music_bg: http://p2.music.126.net/A29AvNO-UD5iRl_LtuBlrw==/109951165139737007.jpg?param=640y300
     music_link: /music/?id=12886307666&server=netease
+  tenyear:
+    enable: true # 十年之约开关，true为显示，false为隐藏
+    tips: 十年之约
+    title: 一个人的寂寞，一群人的狂欢。
+    start: 2025/07/17
+    end: 2035/07/17
   reward_list:
    - name: 小尘
      amount: 0.0
