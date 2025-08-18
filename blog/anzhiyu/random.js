@@ -27,7 +27,7 @@ var posts=["posts/ae3/","posts/3eeb/","posts/5a0d/","posts/e305/","posts/7e9/","
   
       let count = 0;
 
-      while (friend_link_list.length && count < 3) {
+      while (friend_link_list.length && count < 4) {
         const randomIndex = Math.floor(Math.random() * friend_link_list.length);
         const { name, link, avatar } = friend_link_list.splice(randomIndex, 1)[0];
   
