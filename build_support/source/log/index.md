@@ -16,6 +16,7 @@ umami api通过cfworker实现
 接入去不图床，此后图片有家啦！
 优化页脚链接
 把[mo佬](https://blog.xiowo.net/)的十年之约进度条 {% del 抄 %} 借鉴过来了，教程：https://blog.gbfun.cc/posts/5498433.html
+修改网站自动加空格为pangu
 <!-- endtimeline -->
 
 <!-- timeline 08-17 -->
