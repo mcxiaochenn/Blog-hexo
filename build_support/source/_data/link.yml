@@ -171,6 +171,11 @@
       avatar: https://note.redcha.cn/upload/favicon-256x256.png
       descr: 彬红茶的个人笔记📒
       siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https://note.redcha.cn/
+    - name: ztr 的小窝
+      link: https://ztrztr.top
+      avatar: https://cdn.luogu.com.cn/upload/usericon/602124.png
+      descr: 记录 ztr 的学习与生活。
+      siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https://ztrztr.top
 
 - class_name: 推荐服务商
   flink_style: flexcard
