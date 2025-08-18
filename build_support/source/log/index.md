@@ -15,7 +15,7 @@ umami api通过cfworker实现
 添加首页文章卡片擦亮效果
 接入去不图床，此后图片有家啦！
 优化页脚链接
-把mo佬的十年之约进度条~~抄~~过来了，教程：https://blog.gbfun.cc/posts/5498433.html
+把[mo佬](https://blog.xiowo.net/)的十年之约进度条 {% del 抄 %} 借鉴过来了，教程：https://blog.gbfun.cc/posts/5498433.html
 <!-- endtimeline -->
 
 <!-- timeline 08-17 -->
