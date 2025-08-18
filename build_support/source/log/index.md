@@ -13,6 +13,7 @@ layout: sitetime
 umami api通过cfworker实现
 加入中文网字计划 使用：寒蝉全圆体
 添加首页文章卡片擦亮效果
+接入去不图床，此后图片有家啦！
 <!-- endtimeline -->
 
 <!-- timeline 08-17 -->
