@@ -11,6 +11,15 @@
   </url>
   
   <url>
+    <loc>https://blog.mcxiaochen.top/posts/801b/</loc>
+    
+    <lastmod>2025-08-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.mcxiaochen.top/log/index.html</loc>
     
     <lastmod>2025-08-18</lastmod>
@@ -86,15 +95,6 @@
     <loc>https://blog.mcxiaochen.top/uitest/index.html</loc>
     
     <lastmod>2025-08-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mcxiaochen.top/posts/801b/</loc>
-    
-    <lastmod>2025-08-16</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -341,7 +341,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mcxiaochen.top/categories/%E6%95%99%E7%A8%8B/%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE/</loc>
+    <loc>https://blog.mcxiaochen.top/categories/%E6%95%99%E7%A8%8B/Hexo/</loc>
     <lastmod>2025-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -355,7 +355,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mcxiaochen.top/categories/%E6%95%99%E7%A8%8B/Hexo/</loc>
+    <loc>https://blog.mcxiaochen.top/categories/%E6%97%A5%E5%B8%B8/</loc>
     <lastmod>2025-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -369,7 +369,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mcxiaochen.top/categories/%E6%97%A5%E5%B8%B8/</loc>
+    <loc>https://blog.mcxiaochen.top/categories/%E6%95%99%E7%A8%8B/%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE/</loc>
     <lastmod>2025-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

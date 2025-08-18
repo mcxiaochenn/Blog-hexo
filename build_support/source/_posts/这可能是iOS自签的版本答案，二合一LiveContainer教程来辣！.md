@@ -37,7 +37,7 @@ date: 2025-08-16 11:09:36
 
 - [AltServer 安装包](https://cdn.altstore.io/file/altstore/altinstaller.zip)
 - [AltServer 支持 iCloud](https://updates.cdn-apple.com/2020/windows/001-39935-20200911-1A70AA56-F448-11EA-8CC0-99D41950005E/iCloudSetup.exe)
-- [idevice pair](https://github.com/jkcoxson/idevice_pair/releases/latest/download/iDevicePair--windows-x86_64.exe)
+- [idevice pair](https://github.com/jkcoxson/idevice_pair/releases/download/v0.1.3p1/idevice_pair--windows-x86_64.exe)
 - [LocalSend](https://localsend.org/zh-CN/download)
 - [SideStore IPA 安装包](https://github.com/sidestore/sidestore/releases/latest/download/sidestore.ipa)
 - [LiveContainer+SideStore二合一安装包](https://github.com/LiveContainer/LiveContainer/releases/latest/download/LiveContainer+SideStore.ipa)
