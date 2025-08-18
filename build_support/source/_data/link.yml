@@ -176,6 +176,11 @@
       avatar: https://cdn.luogu.com.cn/upload/usericon/602124.png
       descr: 记录 ztr 的学习与生活。
       siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https://ztrztr.top
+    - name: ElysiumStack
+      link: https://www.elysium-stack.cn/
+      avatar: https://www.elysium-stack.cn/upload/ee0757e6-ebb4-46d0-a388-660f648653ea.jpg
+      descr: 不会摄影的设计师不是优秀的旅行家
+      siteshot: https://www.elysium-stack.cn//upload/bg_main.png
 
 - class_name: 推荐服务商
   flink_style: flexcard
