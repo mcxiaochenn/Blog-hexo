@@ -1,0 +1,49 @@
+# seat控制清单在左栏还是右栏显示，completed控制是否已完成
+- class_name: 网站相关
+  seat: left
+  todo_list:
+    - content: 建站
+      completed: true
+    - content: 网站除域名外纯免费化，脱离云服务器
+      completed: false
+    - content: 加入十年之约
+      completed: false
+    - content: 网站获得ICP备案
+      completed: false
+
+
+- class_name: 想要的东西
+  seat: right
+  todo_list:
+    - content: 哔哩哔哩花嫁卡
+      completed: true
+    - content: 一加13
+      completed: false
+    - content: 1t的NVME硬盘
+      completed: true
+    - content: 春风450sr
+      completed: false
+    - content: 全碳公路车
+      completed: false
+
+- class_name: 想学的技术
+  seat: left
+  todo_list:
+    - content: 吉他
+      completed: false
+    - content: 修自行车
+      completed: true
+    - content: 安卓开发
+      completed: false
+
+- class_name: 想去的地方
+  seat: right
+  todo_list:
+    - content: 318国道
+      completed: false
+    - content: 日本
+      completed: false
+    - content: 上海
+      completed: true
+    - content: 杭州
+      completed: true

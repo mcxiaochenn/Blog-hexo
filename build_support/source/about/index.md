@@ -50,14 +50,6 @@ mcxiaochen.top - 现在在用的
 - bilibili: [@辰渊尘Dusk](https://space.bilibili.com/123757127)
 - QQ交流群：[1021796828](https://qm.qq.com/cgi-bin/qm/qr?k=3QBW-67mUFuCz84Heh8p31EDHtam68zo&jump_from=webapi&authKey=nZLoO4R2JmZ0qjaWDlLZ5FilZiVLAPFCvFveGmuZd8m1E0XmHPeJcsi+Ut3bHBCE)
 
-## 计划进度
-
-{% checkbox checked, 建站 %}
-{% checkbox 迁移评论系统到Cloudflare R2存储 %}
-{% checkbox 自建图床 %}
-{% checkbox 加入十年之约 %}
-{% checkbox 获得备案 %}
-
 ## 关于本站
 
 域名：[阿里云](https://aliyun.com/)
