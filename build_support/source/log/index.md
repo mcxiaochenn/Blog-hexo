@@ -12,6 +12,7 @@ layout: sitetime
 好消息：办上花嫁了，坏消息：卡本体要等7天才到。
 使用Cloudflare CDN加速
 添加待办清单页
+引入杜老师不蒜子统计平台
 <!-- endtimeline -->
 
 <!-- timeline 08-18 -->
