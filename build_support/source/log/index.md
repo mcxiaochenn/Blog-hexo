@@ -8,6 +8,11 @@ layout: sitetime
 
 {% timeline 2025 %}
 
+<!-- timeline 08-19 -->
+好消息：办上花嫁了，坏消息：卡本体要等7天才到。
+使用Cloudflare CDN加速
+<!-- endtimeline -->
+
 <!-- timeline 08-18 -->
 替换umami实现为Vercel（此前数据全丢😭）
 umami api通过cfworker实现
@@ -21,7 +26,7 @@ umami api通过cfworker实现
 <!-- endtimeline -->
 
 <!-- timeline 08-17 -->
-移除又拍云（没想到存储也要备案，果咩那赛只能删掉了。。。准备试试看cfo2不知道储蓄卡能不能绑定）
+移除又拍云（没想到存储也要备案，果咩那赛只能删掉了。。。准备试试看cfR2不知道储蓄卡能不能绑定）
 添加茶icp备案
 修改信笺图
 修改邮件通知界面
