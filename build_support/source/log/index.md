@@ -15,6 +15,8 @@ layout: sitetime
 微调网站配色（把``hello world``小代码框颜色改成深色系了，养眼，之前的太刺眼了）
 添加域名年龄svg
 添加本站支持SSL安全访问svg
+维护友链
+安全跳转插件回归
 <!-- endtimeline -->
 
 <!-- timeline 08-19 -->

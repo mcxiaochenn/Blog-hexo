@@ -181,6 +181,11 @@
       avatar: https://www.elysium-stack.cn/upload/ee0757e6-ebb4-46d0-a388-660f648653ea.jpg
       descr: 不会摄影的设计师不是优秀的旅行家
       siteshot: https://www.elysium-stack.cn//upload/bg_main.png
+    - name: 杜老师说
+      link: https://dusays.com
+      avatar: https://cdn.dusays.com/favicon.ico
+      descr: 听杜老师说说~
+      siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https://dusays.com
 
 - class_name: 推荐服务商
   flink_style: flexcard
