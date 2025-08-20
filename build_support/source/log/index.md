@@ -11,6 +11,7 @@ layout: sitetime
 <!-- timeline 08-20 -->
 从busuanzi迁移到vercount
 固定链接改为crc32同时首位改为p，根源杜绝随机到纯数字的问题
+修复一个历史遗留问题导致的昼夜切换按钮控件大小极其逆天的问题
 <!-- endtimeline -->
 
 <!-- timeline 08-19 -->
