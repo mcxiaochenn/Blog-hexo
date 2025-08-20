@@ -8,6 +8,11 @@ layout: sitetime
 
 {% timeline 2025 %}
 
+<!-- timeline 08-20 -->
+从busuanzi迁移到vercount
+固定链接改为crc32同时首位改为p，根源杜绝随机到纯数字的问题
+<!-- endtimeline -->
+
 <!-- timeline 08-19 -->
 好消息：办上花嫁了，坏消息：卡本体要等7天才到。
 使用Cloudflare CDN加速
