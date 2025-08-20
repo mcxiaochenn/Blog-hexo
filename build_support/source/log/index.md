@@ -12,6 +12,7 @@ layout: sitetime
 从busuanzi迁移到vercount
 固定链接改为crc32同时首位改为p，根源杜绝随机到纯数字的问题
 修复一个历史遗留问题导致的昼夜切换按钮控件大小极其逆天的问题
+微调网站配色（把``hello world``小代码框颜色改成深色系了，养眼，之前的太刺眼了）
 <!-- endtimeline -->
 
 <!-- timeline 08-19 -->
