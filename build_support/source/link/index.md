@@ -2,6 +2,8 @@
 title: 友链
 date: 2025-07-17 15:38:18
 type: "link"
+aside: false
+top_img: false
 ---
 
 # 友情链接申请相关

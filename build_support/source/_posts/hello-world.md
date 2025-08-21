@@ -9,6 +9,6 @@ date: 2025-07-14 16:57:18
 
 相见即是缘.
 
-总之，祝你早安、午安、下午安、晚安.
+总之如果以后碰不到了，祝你早安、午安、下午安、晚安.
 
-Wish you good morning, good afternoon, good evening and good night.
+And in case i don't see you,good afternoon,good evening,and good night!
