@@ -8,6 +8,10 @@ layout: sitetime
 
 {% timeline 2025 %}
 
+<!-- timeline 08-21 -->
+维护友链
+<!-- endtimeline -->
+
 <!-- timeline 08-20 -->
 从busuanzi迁移到vercount
 固定链接改为crc32同时首位改为p，根源杜绝随机到纯数字的问题

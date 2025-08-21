@@ -186,6 +186,12 @@
       avatar: https://cdn.dusays.com/favicon.ico
       descr: 听杜老师说说~
       siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https://dusays.com
+    - name: GB的记事簿
+      link: https://blog.gbfun.cc/
+      avatar: https://blog.gbfun.cc/img/avatar.jpg
+      descr: 热爱生活
+      siteshot: https://blog.gbfun.cc/img/blog.gbfun.cc.jpg
+
 
 - class_name: 推荐服务商
   flink_style: flexcard
