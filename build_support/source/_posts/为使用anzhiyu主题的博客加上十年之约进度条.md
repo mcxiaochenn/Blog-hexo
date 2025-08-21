@@ -6,11 +6,11 @@ summary: >-
 date: 2025-08-18 17:03:33
 tags:
   - 教程
-  - 博客折腾
+  - 博客
   - 实战
 categories:
   - 教程
-  - 博客折腾
+  - 博客
 cover: https://bu.dusays.com/2025/08/18/68a2eed3562dc.webp
 ---
 

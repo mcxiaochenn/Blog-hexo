@@ -2,12 +2,12 @@
 title: 为你的Twikoo添加酷安表情包
 tags:
   - 教程
-  - 博客维护
+  - 博客
   - Hexo
   - Twikoo
 categories:
   - 教程
-  - 博客折腾
+  - 博客
 cover: https://bu.dusays.com/2025/08/21/68a7339be3c66.webp
 abbrlink: 5b9fe4a
 summary: >-
