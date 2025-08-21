@@ -8,6 +8,7 @@ tags:
 categories:
   - 教程
   - 博客折腾
+cover: https://bu.dusays.com/2025/08/21/68a7339be3c66.webp
 abbrlink: 5b9fe4a
 summary: >-
   这里是小尘AI，这篇文章介绍了如何为Twikoo评论系统添加酷安表情包，包括研究JSON格式、使用脚本自动化生成表情包链接，以及提供可直接调用的资源链接，帮助用户轻松实现自定义表情功能。
