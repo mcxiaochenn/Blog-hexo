@@ -11,6 +11,15 @@
   </url>
   
   <url>
+    <loc>https://blog.mcxiaochen.top/posts/p1b75e3c5/</loc>
+    
+    <lastmod>2025-08-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.mcxiaochen.top/log/index.html</loc>
     
     <lastmod>2025-08-22</lastmod>
@@ -381,6 +390,20 @@
   </url>
   
   <url>
+    <loc>https://blog.mcxiaochen.top/tags/Minecraft/</loc>
+    <lastmod>2025-08-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mcxiaochen.top/tags/MCSManager/</loc>
+    <lastmod>2025-08-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.mcxiaochen.top/tags/%E6%9D%82%E8%B0%88/</loc>
     <lastmod>2025-08-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -433,6 +456,13 @@
   
   <url>
     <loc>https://blog.mcxiaochen.top/categories/%E6%95%99%E7%A8%8B/IOS%E6%8A%98%E8%85%BE/</loc>
+    <lastmod>2025-08-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mcxiaochen.top/categories/%E6%95%99%E7%A8%8B/mc/</loc>
     <lastmod>2025-08-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
