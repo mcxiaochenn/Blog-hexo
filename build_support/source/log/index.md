@@ -8,6 +8,11 @@ layout: sitetime
 
 {% timeline 2025 %}
 
+<!-- timeline 08-24 -->
+中文网字计划改为Netlify分包
+维护友链
+<!-- endtimeline -->
+
 <!-- timeline 08-22 -->
 维护友链
 <!-- endtimeline -->
