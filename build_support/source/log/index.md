@@ -11,6 +11,7 @@ layout: sitetime
 <!-- timeline 08-30 -->
 维护友链
 更新镜像站
+赞助码改为方形svg
 <!-- endtimeline -->
 
 <!-- timeline 08-24 -->
