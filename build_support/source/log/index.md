@@ -10,6 +10,7 @@ layout: sitetime
 
 <!-- timeline 08-30 -->
 维护友链
+更新镜像站
 <!-- endtimeline -->
 
 <!-- timeline 08-24 -->
