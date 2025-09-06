@@ -8,6 +8,11 @@ layout: sitetime
 
 {% timeline 2025 %}
 
+<!-- timeline 09-06 -->
+维护友链
+自动空格由pangu改为auto_spacing
+<!-- endtimeline -->
+
 <!-- timeline 08-30 -->
 维护友链
 更新镜像站
