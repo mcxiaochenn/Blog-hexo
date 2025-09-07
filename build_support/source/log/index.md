@@ -10,6 +10,8 @@ layout: sitetime
 
 <!-- timeline 09-07 -->
 评论系统迁移到自己的香港云服务器
+统计源改为本地调用
+meting-api改为自己的服务器
 <!-- endtimeline -->
 
 <!-- timeline 09-06 -->
