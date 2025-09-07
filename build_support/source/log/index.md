@@ -8,6 +8,10 @@ layout: sitetime
 
 {% timeline 2025 %}
 
+<!-- timeline 09-07 -->
+评论系统迁移到自己的香港云服务器
+<!-- endtimeline -->
+
 <!-- timeline 09-06 -->
 维护友链
 自动空格由pangu改为auto_spacing
