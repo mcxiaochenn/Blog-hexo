@@ -137,7 +137,7 @@ div#page {
 <script>
 (() => {
   const MessageComments = {
-    API_URL: 'https://twikoo-netlify.mcxiaochen.top/.netlify/functions/twikoo', // 这里填入你的Twikoo服务器地址
+    API_URL: 'https://twikoo.mcxiaochen.top/', // 这里填入你的Twikoo服务器地址
     ADMIN_EMAIL_MD5: '36cba7a8f3897ad01330dd4e856934d5501bdf7268b2b7a14a968fb6335f074c', // 这里填入你的邮箱md5值
     PAGE_SIZE: 100, // 显示的评论数量 好像最多也就100个
 

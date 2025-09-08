@@ -11,6 +11,7 @@ layout: sitetime
 <!-- timeline 09-08 -->
 改为静态站构建，方便手机写文章，脚本+环境变量隐藏DSAPI确保安全
 调整构建脚本
+修复 [评论界面](/messages/) 依旧使用老数据库导致评论不同步的bug
 <!-- endtimeline -->
 
 <!-- timeline 09-07 -->
