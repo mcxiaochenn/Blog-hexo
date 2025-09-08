@@ -15,6 +15,12 @@ summary: >-
 date: 2025-08-21 22:20:01
 ---
 
+{% tip info %}
+更新日志
+
+2025/07/09：非常抱歉诸位，才意识到丢错文件夹了，把json文件丢到了js文件夹，现在已经改过来了，如果引用我的配置文件出现异常的，非常非常非常抱歉！
+{% endtip %}
+
 ## 前言
 
 咱博客现在也是蒸蒸日上了，主站搭建差不多了，今天来折腾下Twikoo自定义表情包
@@ -112,12 +118,12 @@ echo '}'
 
 就不放在这了，太长了，可以直接调用或复制本站的：
 ```text
-https://blog.mcxiaochen.top/js/owo.json
+https://blog.mcxiaochen.top/json/owo.json
 ```
 
 单酷安表情包：
 ```text
-https://blog.mcxiaochen.top/js/owo_coolapk.json
+https://blog.mcxiaochen.top/json/owo_coolapk.json
 ```
 
 
