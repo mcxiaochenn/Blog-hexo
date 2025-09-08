@@ -1,0 +1,26 @@
+# netlify.toml
+[build]
+  # 构建命令
+  command = "npm run build"
+  # 构建输出目录
+  publish = "public"
+
+[build.environment]
+  # Hexo 构建时需要的 API Key
+  DEEPSEEK_API_KEY = "YOUR_API_KEY_HERE"
+
+  # 忽略 secrets 扫描检测的路径（构建时生成的 _config.yml）
+  SECRETS_SCAN_OMIT_PATHS = "_config.yml"
+  # 忽略 secrets 扫描检测的特定密钥
+  SECRETS_SCAN_OMIT_KEYS = "DEEPSEEK_API_KEY"
+
+# 可选：如果你希望更详细地控制构建前后脚本
+[build.processing]
+  skip_processing = false
+
+# 可选：设置 headers（CDN 缓存、Security Headers 等）
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
