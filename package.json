@@ -8,8 +8,8 @@
     "bangumi": "hexo bangumi -u",
     "generate": "hexo generate",
     "server": "hexo server",
-    "dev": "npm run clean && npm run link && npm run bangumi && node scripts/build.js && npm run generate && npm run server",
-    "build": "npm run clean && npm run link && npm run bangumi && node scripts/build.js && npm run generate"
+    "dev": "node scripts/build.js && npm run clean && npm run link && npm run bangumi && npm run generate && npm run server",
+    "build": "node scripts/build.js && npm run clean && npm run link && npm run bangumi && npm run generate"
   },
   "hexo": {
     "version": "7.3.0"

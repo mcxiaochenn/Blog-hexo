@@ -10,8 +10,6 @@ categories:
   - 博客
 cover: https://bu.dusays.com/2025/09/07/68bd22b556e1b.webp
 abbrlink: c83e94c5
-summary: >-
-  这里是小尘AI，这篇文章介绍了如何通过云服务器和宝塔面板部署Twikoo博客评论系统，包括选择服务器、配置宝塔、使用Docker部署后端和数据库、设置反向代理、SSL证书以及数据迁移步骤，旨在提升评论系统的稳定性和响应速度。
 date: 2025-09-07 14:08:05
 ---
 
