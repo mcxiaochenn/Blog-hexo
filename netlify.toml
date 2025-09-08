@@ -7,7 +7,7 @@
 
 [build.environment]
   # Hexo 构建时需要的 API Key
-  DEEPSEEK_API_KEY = "YOUR_API_KEY_HERE"
+  # DEEPSEEK_API_KEY = "YOUR_API_KEY_HERE"
 
   # 忽略 secrets 扫描检测的路径（构建时生成的 _config.yml）
   SECRETS_SCAN_OMIT_PATHS = "_config.yml"

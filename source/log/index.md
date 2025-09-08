@@ -10,6 +10,7 @@ layout: sitetime
 
 <!-- timeline 09-08 -->
 改为静态站构建，方便手机写文章，脚本+环境变量隐藏DSAPI确保安全
+调整构建脚本
 <!-- endtimeline -->
 
 <!-- timeline 09-07 -->
