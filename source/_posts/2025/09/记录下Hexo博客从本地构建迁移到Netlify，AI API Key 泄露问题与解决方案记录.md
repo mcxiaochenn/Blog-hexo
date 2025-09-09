@@ -104,6 +104,22 @@ aisummary:
     请用中文作答，去除特殊字符，输出内容开头为“这里是小尘AI，这篇文章”。
 ```
 
+启动脚本也要改 ``package.json``
+
+```json
+{
+  "scripts": {
+    "clean": "hexo clean",
+    "generate": "hexo generate",
+    "server": "hexo server",
+    "dev": "node scripts/build.js && npm run clean && npm run generate && npm run server",
+    "build": "node scripts/build.js && npm run clean && npm run generate"
+  }
+}
+```
+
+之后本地调试用 ``npm run dev`` ， 构建用 ``npm run build``
+
 本地创建 ``.env`` 文件，并把敏感文件加入 ``.gitignore`` 防止泄露
 
 ```text
