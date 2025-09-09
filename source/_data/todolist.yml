@@ -4,8 +4,6 @@
   todo_list:
     - content: 建站
       completed: true
-    - content: 网站除域名外纯免费化，脱离云服务器
-      completed: false
     - content: 加入十年之约
       completed: false
     - content: 网站获得ICP备案
