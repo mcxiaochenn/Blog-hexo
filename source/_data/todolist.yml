@@ -15,10 +15,14 @@
   todo_list:
     - content: 哔哩哔哩花嫁卡
       completed: true
-    - content: 一加13
-      completed: false
+    - content: 一加13（被没收了）
+      completed: true
     - content: 1t的NVME硬盘
       completed: true
+    - content: 游戏本
+      completed: false
+    - content: 一加Ace 5 Pro 或 一加15
+      completed: false
     - content: 春风450sr
       completed: false
     - content: 全碳公路车
