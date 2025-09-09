@@ -11,6 +11,7 @@ layout: sitetime
 <!-- timeline 09-09 -->
 修复个签错别字（第一次使用手机维护博客）
 同步anzhiyu主题更改（更新二维码脚本链接，使用新的CDN地址）
+维护友链
 <!-- endtimeline -->
 
 <!-- timeline 09-08 -->
