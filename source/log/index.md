@@ -10,7 +10,7 @@ layout: sitetime
 
 <!-- timeline 09-10 -->
 完善版权协议
-新增随机美图api
+新增随机美图api（API来自： [杜老师说](https://dusays.com/) ）
 <!-- endtimeline -->
 
 <!-- timeline 09-09 -->
