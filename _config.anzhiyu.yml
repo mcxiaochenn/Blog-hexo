@@ -852,7 +852,11 @@ aside:
 
   card_announcement:
     enable: true
-    content: <div id="welcome-info"></div>
+    content: <span>👋🏻 Hi，我是辰渊尘，欢迎来到我的博客！</span><br>
+           <span>❓ 如有问题欢迎评论区交流！</span><br>
+           <span>😫 页面异常？尝试<kbd>Ctrl</kbd>+<kbd>F5</kbd></span><br>
+           <span>📧 如需联系我：<a href="mailto:mcxiaochenn.yyds@gmail.com"><b>发送邮件🚀</b></a></span>
+           <div id="welcome-info"></div> # 必须项
   card_weixin:
     enable: false
     face: https://bu.dusays.com/2023/01/13/63c02edf44033.png
@@ -1315,6 +1319,7 @@ inject:
     - <script src="/js/echarts.min.js"></script> # 统计页面
     - <script src="/js/comments.js"></script>
     - <script src="/js/countdown.js"></script>
+    - <script src="/js/card-welcome.js"></script> # 来访者信息卡片
 
 # CDN
 # Don't modify the following settings unless you know how they work

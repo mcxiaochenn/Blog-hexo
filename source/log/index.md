@@ -11,6 +11,7 @@ layout: sitetime
 <!-- timeline 09-10 -->
 完善版权协议
 新增随机美图api（API来自： [杜老师说](https://dusays.com/) ）
+首页来访者信息卡片改为 [梦爱吃鱼大佬的方案](https://blog.bsgun.cn/posts/ef58a648)
 <!-- endtimeline -->
 
 <!-- timeline 09-09 -->
