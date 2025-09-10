@@ -1,16 +1,22 @@
-MIT License
+MIT License | MIT 许可证
 
 Copyright (c) 2025 小尘 Xiao Chen
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
+of this software framework and associated documentation files (the "Software"),
+to deal in the Software without restriction, including without limitation the
+rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+sell copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
+
+特此免费授予任何获得本软件框架及相关文档文件（“软件”）副本的人无限制地处理本软件的权限，
+包括但不限于使用、复制、修改、合并、出版、分发、再许可和/或销售本软件的副本，
+以及允许本软件提供给的人员这样做，但须满足以下条件：
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
+
+以上版权声明和本许可声明应包含在本软件的所有副本或重要部分中。
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -19,3 +25,35 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+本软件按“原样”提供，不附带任何明示或暗示的担保，
+包括但不限于对适销性、特定用途适用性及非侵权的担保。
+在任何情况下，作者或版权持有人均不对因本软件或本软件的使用或其他交易
+而产生或与之相关的任何索赔、损害赔偿或其他责任负责，
+无论是在合同诉讼、侵权行为或其他情况下。
+
+
+───────────────────────────────────────────────
+📖 Blog Content License | 博客内容许可
+
+All original articles, images, and other creative content on this blog are
+licensed under the **Creative Commons Attribution-NonCommercial-NoDerivatives
+(CC BY-NC-ND 4.0 International)** license.
+
+本博客中的所有原创文章、图片及其他创作内容，均采用
+**知识共享署名-非商业性使用-禁止演绎 4.0 国际 (CC BY-NC-ND 4.0)** 协议授权。
+
+👉 You may:
+- Share the content with attribution, for non-commercial purposes, without modification.
+👉 您可以：
+- 在非商业用途下，保留署名地分享内容，但不得修改或演绎。
+
+🚫 You may not:
+- Use the content for commercial purposes.
+- Copy or mirror the entire site without permission.
+- Create derivative works based on the original content.
+
+🚫 您不能：
+- 将内容用于商业用途；
+- 未经许可整站镜像本博客；
+- 基于原创内容进行修改、再创作或衍生。
