@@ -10,6 +10,7 @@ layout: sitetime
 
 <!-- timeline 09-10 -->
 完善版权协议
+新增随机美图api
 <!-- endtimeline -->
 
 <!-- timeline 09-09 -->

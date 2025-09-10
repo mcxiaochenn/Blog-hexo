@@ -20,3 +20,15 @@ top:
           <i class="fas fa-angle-right"></i>
         </a>
         <div class="aside-list" id="latest-comments"></div>
+
+bottom:
+  - class_name: card-random-image
+    id_name:
+    name: 随机图片
+    icon: fas fa-image
+    html: |
+      <div class="random-image-widget">
+        <a href="https://birdteam.net/baisi.php" target="_blank">
+          <img src="https://birdteam.net/baisi.php" alt="随机图片" style="width:100%; border-radius:8px;">
+        </a>
+      </div>
