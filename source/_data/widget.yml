@@ -28,7 +28,7 @@ bottom:
     icon: fas fa-image
     html: |
       <div class="random-image-widget">
-        <a href="https://birdteam.net/baisi.php" target="_blank">
-          <img src="https://birdteam.net/baisi.php" alt="随机图片" style="width:100%; border-radius:8px;">
+        <a href="https://yyserver.mcxiaochen.top/baisi.php" target="_blank">
+          <img src="https://yyserver.mcxiaochen.top/baisi.php" alt="随机图片" style="width:100%; border-radius:8px;">
         </a>
       </div>
