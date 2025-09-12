@@ -157,7 +157,7 @@ chmod +x ./解压目录/bin/java
 ./Java/zulu21.44.17-ca-jdk21.0.8-linux_x64/bin/java -Xms32G -Xmx32G -jar fabric-server-mc.1.21.4-loader.0.17.2-launcher.1.1.0.jar nogui
 
 # 示例
-./解压目录/bin/java -Xms<服务器最大内存减一>G -Xmx<服务器最大内存减一>G -jar fabric-server-mc.xxxxxxxxxxxxxxxxxxxxxxxx.jar nogui
+./解压目录/bin/java -Xms <服务器最大内存减一> -Xmx <服务器最大内存减一> -jar fabric-server-mc.xxxxxxxxxxxxxxxxxxxxxxxx.jar nogui
 ```
 
 保存并启动就完成一个最基本服务器的部署

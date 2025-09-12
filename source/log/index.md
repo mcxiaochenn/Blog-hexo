@@ -8,6 +8,10 @@ layout: sitetime
 
 {% timeline 2025 %}
 
+<!-- timeline 09-12 -->
+[auto_spacing](https://github.com/hexojs/hexo-filter-auto-spacing)改为[Hexo-Pangu](https://github.com/next-theme/hexo-pangu)，后端预渲染解决我的痛楚
+<!-- endtimeline -->
+
 <!-- timeline 09-10 -->
 完善版权协议
 新增随机美图api（API来自： [杜老师说](https://dusays.com/) ）

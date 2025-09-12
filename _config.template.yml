@@ -281,7 +281,7 @@ aisummary:
 # hexo 中英文之间自动加空格
 # npm install hexo-filter-auto-spacing --save
 auto_spacing:
-  enable: true
+  enable: false
 
 search:
   path: search.xml
