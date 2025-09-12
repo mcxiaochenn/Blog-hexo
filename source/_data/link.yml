@@ -216,6 +216,11 @@
       avatar: https://blog.zyx-2012.cn/upload/450afd2435d73f8b0dd3fce81b64b913.jpeg
       descr: 己所不欲，勿施于人
       siteshot: https://blog.zyx-2012.cn/upload/PixPin_2025-09-06_12-50-46.png
+    - name: 初之音
+      link: https://www.himiku.com/
+      avatar: https://gravatar.com/avatar/2fc4cf3560ff5a1cc64ea029896ab235?s=400
+      descr: 聆听心中最初的声音
+      siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https://www.himiku.com/
 
 - class_name: 推荐服务商
   flink_style: flexcard
