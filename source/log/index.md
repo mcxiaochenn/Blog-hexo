@@ -10,7 +10,8 @@ layout: sitetime
 
 <!-- timeline 09-12 -->
 因为9月12修改了文章自动排版api，导致文章更新时间异常，全部修改为真实修改时间
-优化 **隐私协议** 和 **免责声明**
+优化 [**隐私协议**](/privacy/) 和 [**免责声明**](/disclaimer/)
+更新短文
 <!-- endtimeline -->
 
 <!-- timeline 09-12 -->
