@@ -16,6 +16,7 @@ layout: sitetime
 加入无聊湾
 添加最后更新时间
 首页文章数量改为12篇
+手搓深色模式[背景](/img/tgbj-cai-xiaochen.svg)（总觉得渐变怪怪的，先这样吧，日后再改）
 <!-- endtimeline -->
 
 <!-- timeline 09-12 -->

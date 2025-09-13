@@ -1307,6 +1307,7 @@ inject:
   head:
     # 自定义css
     # - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'">
+    - <link rel="stylesheet" href="/css/custom.css"> 
     - <link rel="stylesheet" href="/css/imgloaded.css?1">
     - <script defer src="https://umami.mcxiaochen.top/script.js" data-website-id="4d155577-ee52-4469-a572-2156d323cc4f"></script>
     - <link rel='stylesheet' href='https://cnfont-chillroundfbold.mcxiaochen.top/result.css' />
