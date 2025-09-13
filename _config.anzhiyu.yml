@@ -556,6 +556,8 @@ footer:
         links:
           - title: 隐私协议
             link: /privacy/
+          - title: 免责声明
+            link: /disclaimer/
           - title: Cookies
             link: /cookies/
           - title: 版权协议
