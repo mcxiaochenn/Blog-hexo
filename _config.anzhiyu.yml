@@ -1312,6 +1312,7 @@ inject:
     - <link rel='stylesheet' href='https://cnfont-chillroundfbold.mcxiaochen.top/result.css' />
     - <link rel="stylesheet" href="/css/home.css"> # 首页文章卡片擦亮效果
     - <link rel="stylesheet" href="/css/todolist.css"> # 待办清单页
+    - <script src="/js/nomyurl.js"></script>
     - <meta name="baidu-site-verification" content="codeva-lzpVCQt9AB" />
 
   bottom:
