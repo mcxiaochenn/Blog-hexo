@@ -9,6 +9,10 @@ layout: sitetime
 {% timeline 2025 %}
 
 <!-- timeline 09-12 -->
+因为9月12修改了文章自动排版api，导致文章更新时间异常，全部修改为真实修改时间
+<!-- endtimeline -->
+
+<!-- timeline 09-12 -->
 [auto_spacing](https://github.com/hexojs/hexo-filter-auto-spacing)改为[Hexo-Pangu](https://github.com/next-theme/hexo-pangu)，后端预渲染解决我的痛楚
 随机图片改为我自己的服务器：[随机白丝图片](https://yyserver.mcxiaochen.top/baisi.php)
 维护友链

@@ -12,6 +12,7 @@ cover: /img/iOS侧载新选择！SideStore+LiveContainer，纯净无广，无限
 summary: >-
   这里是小尘AI，这篇文章介绍了如何在iOS设备上使用SideStore和LiveContainer实现无限安装和多开应用的方法，摆脱Apple对开发账号的3个应用限制。文章详细解释了SideStore作为AltStore分支的功能，以及LiveContainer作为应用启动器的优势，包括无需实际安装应用、支持多版本和多数据容器等特性。教程部分提供了从准备工作到具体安装配置的完整步骤，包括AltStore安装、SideStore部署、JitterbugPair设备文件获取、StosVPN配置等关键环节。最后还提供了常见问题解答和进阶教程预告，帮助用户更好地利用这套工具实现iOS应用的自由安装和管理。
 date: 2025-07-29 14:16:08
+updated: 2025-08-17 22:21:53
 ---
 
 还在用牛蛙助手/ NB广告助手吗？别用那玩意了，吃相难看还限制安装app数量，按照此教程正确安装SideStore和LiveContainer，你就可以无限安装/多开软件，不受Apple的3软件数量限制
