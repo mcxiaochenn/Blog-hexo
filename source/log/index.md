@@ -14,7 +14,8 @@ layout: sitetime
 更新短文
 反镜像站
 加入无聊湾
-添加最后更新
+添加最后更新时间
+首页文章数量改为12篇
 <!-- endtimeline -->
 
 <!-- timeline 09-12 -->
