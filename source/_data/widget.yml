@@ -11,6 +11,14 @@ top:
         <span class="cd-date" id="eventDate"></span>
       </div>
       <div id="countRight" class="cd-count-right"></div>
+  - class_name: card-boringbay
+    id_name:
+    name: 无聊湾
+    icon: fas fa-face-meh
+    html: |
+        <a title="无聊湾 🥱 The Boring Bay" href="https://boringbay.com"><img height="50px" src="https://boringbay.com/api/badge/blog.mcxiaochen.top"></img></a>
+        
+bottom:
   - class_name: card-latest-comments
     id_name:
     name: 最新评论
@@ -20,8 +28,6 @@ top:
           <i class="fas fa-angle-right"></i>
         </a>
         <div class="aside-list" id="latest-comments"></div>
-
-bottom:
   - class_name: card-random-image
     id_name:
     name: 随机图片
