@@ -10,12 +10,6 @@
       siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https://blog.mcxiaochen.top/
       color: vip
       tag: 系本站啦
-    - name: 十年之约
-      link: https://www.foreverblog.cn/
-      avatar: https://www.foreverblog.cn/favicon.ico
-      descr: 一个人的寂寞，一群人的狂欢。
-      siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https://www.foreverblog.cn/
-      tag: 十年之约
     - name: 安知鱼
       link: https://blog.anheyu.com/
       avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg
@@ -245,7 +239,20 @@
       descr: 记录技术、日常
       siteshot: https://s1.imagehub.cc/images/2025/08/22/9bf70f81f5e898875e74c5ec418f990e.png
 
+- class_name: 博客组织
+  class_desc: 有趣的灵魂，博客人的狂欢
+  flink_style: flexcard
+  hundredSuffix: ""
+  link_list:
+    - name: 十年之约
+      link: https://www.foreverblog.cn/
+      avatar: https://www.foreverblog.cn/favicon.ico
+      descr: 一个人的寂寞，一群人的狂欢。
+      siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https://www.foreverblog.cn/
+      tag: 十年之约
+
 - class_name: 推荐服务商
+  class_desc: 靠谱的伙伴，站长的福音
   flink_style: flexcard
   hundredSuffix: ""
   link_list:
