@@ -5,11 +5,12 @@
   "scripts": {
     "clean": "hexo clean",
     "link": "node link.js",
+    "flink": "node flink_count.js",
     "bangumi": "hexo bangumi -u",
     "generate": "hexo generate",
     "server": "hexo server",
-    "dev": "node scripts/build.js && npm run clean && npm run link && npm run bangumi && npm run generate && npm run server",
-    "build": "node scripts/build.js && npm run clean && npm run link && npm run bangumi && npm run generate"
+    "dev": "node scripts/build.js && npm run clean && npm run link && npm run flink && npm run bangumi && npm run generate && npm run server",
+    "build": "node scripts/build.js && npm run clean && npm run link && npm run flink && npm run bangumi && npm run generate"
   },
   "hexo": {
     "version": "7.3.0"

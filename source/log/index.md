@@ -11,6 +11,7 @@ layout: sitetime
 <!-- timeline 09-14 -->
 维护[个人页](/about/)
 维护友链
+配置友链访问性检测，来自：https://blog.liushen.fun/posts/c2262998/
 <!-- endtimeline -->
 
 <!-- timeline 09-13 -->

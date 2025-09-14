@@ -7,7 +7,7 @@ let friends = [];
 const data_f = YML.parse(fs.readFileSync('source/_data/link.yml').toString().replace(/(?<=rss:)\s*\n/g, ' ""\n'));
 
 data_f.forEach((entry, index) => {
-  if (index < 2) {
+  if (index < 3) {
     const filteredLinkList = entry.link_list.filter(linkItem => !blacklist.includes(linkItem.name));
     friends = friends.concat(filteredLinkList);
   }

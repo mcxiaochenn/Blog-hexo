@@ -234,16 +234,6 @@
       descr: 聆听心中最初的声音
       siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https://www.himiku.com/
 
-- class_name: 推荐服务商
-  flink_style: flexcard
-  hundredSuffix: ""
-  link_list:
-    - name: Rainyun 润雨科技
-      link: https://www.rainyun.com/blxc123_
-      avatar: https://www.rainyun.com/favicon.ico
-      descr: 🚀 稳定 · 高性价比 · 学生/开发者友好！
-      siteshot: /img/link/yuyun.png
-
 - class_name: 走丢的小伙伴
   class_desc: 随机回访超过三次博客无法进入或异常，就会进入走丢的小伙伴，此处永久保留并不定期回访，如果恢复正常则回到小伙伴里
   flink_style: anzhiyu
@@ -254,3 +244,13 @@
       avatar: https://s1.imagehub.cc/images/2025/08/22/5aeabd5d7868bc9bc70af208609c7b50.jpg
       descr: 记录技术、日常
       siteshot: https://s1.imagehub.cc/images/2025/08/22/9bf70f81f5e898875e74c5ec418f990e.png
+
+- class_name: 推荐服务商
+  flink_style: flexcard
+  hundredSuffix: ""
+  link_list:
+    - name: Rainyun 润雨科技
+      link: https://www.rainyun.com/blxc123_
+      avatar: https://www.rainyun.com/favicon.ico
+      descr: 🚀 稳定 · 高性价比 · 学生/开发者友好！
+      siteshot: /img/link/yuyun.png
