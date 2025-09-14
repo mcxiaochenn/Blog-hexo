@@ -10,7 +10,12 @@ details[open]:not(.tk-admin-config-group) {
 }
 [data-theme="dark"]
   details.folding-tag
-   background: transparent
+    background: rgba(0, 0, 0, 0.3)  // 半透明黑色
+    backdrop-filter: blur(10px)     // 高斯模糊
+    -webkit-backdrop-filter: blur(10px)
+    border: 1px solid rgba(255,255,255,0.1) // 模糊边框
+    border-radius: 14px
+    color: rgba(255, 255, 255, 0.8)
 details.folding-tag
   display: block
   padding: 16px
@@ -128,13 +133,10 @@ details.folding-tag[open]
           margin-bottom: 0
 [data-theme="dark"]
   details[open]
-    & > div
-      &.content
-        padding 16px
-        margin -16px
-        margin-top 0
-        background: transparent;
-        color rgba(255, 255, 255, 0.6)
+  details.folding-tag[open]
+    > div.content
+      background: transparent
+      color: rgba(255,255,255,0.8)
   details
     & > summary
       filter brightness(1)
