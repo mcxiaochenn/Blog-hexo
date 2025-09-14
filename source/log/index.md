@@ -8,6 +8,10 @@ layout: sitetime
 
 {% timeline 2025 %}
 
+<!-- timeline 09-14 -->
+维护[个人页](/about/)
+<!-- endtimeline -->
+
 <!-- timeline 09-13 -->
 因为9月12修改了文章自动排版api，导致文章更新时间异常，全部修改为真实修改时间
 优化 [**隐私协议**](/privacy/) 和 [**免责声明**](/disclaimer/)
