@@ -1,6 +1,6 @@
 (function() {
     const STATUS_CACHE_KEY = "statusTagsData";
-    const STATUS_JSON_URL = "https://check-flink-ai9.pages.dev/result.json";
+    const STATUS_JSON_URL = "https://check-flink.mcxiaochen.top/result.json";
 
     let latestData = [];
 
