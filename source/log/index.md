@@ -10,6 +10,7 @@ layout: sitetime
 
 <!-- timeline 09-14 -->
 维护[个人页](/about/)
+维护友链
 <!-- endtimeline -->
 
 <!-- timeline 09-13 -->
