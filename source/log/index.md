@@ -14,6 +14,7 @@ layout: sitetime
 配置友链访问性检测，来自：https://blog.liushen.fun/posts/c2262998/
 把Mo佬的深色模式背景图~~偷~~（借鉴）过来了 doge
 深色模式下folding框添加模糊效果，提高可读性
+优选DNS，访问更顺畅！
 <!-- endtimeline -->
 
 <!-- timeline 09-13 -->
