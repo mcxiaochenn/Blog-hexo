@@ -2,6 +2,10 @@
 
 一个基于 Hexo 构建的现代化个人博客主题，专注于技术分享、实践与个人日常记录。
 
+## 状态
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0a72d436-fdfc-4cd0-b6b6-f38360fa6620/deploy-status)](https://app.netlify.com/projects/chen-blog-hexo/deploys)
+
 ## 关于
 
 此仓库主要用于存储部署博客必要的文件，包含了框架代码与所有文章内容。  
