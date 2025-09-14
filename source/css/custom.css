@@ -6,9 +6,16 @@
 
 /* 夜间网站背景/颜色 */
 [data-theme=dark] #web_bg {
-    background: url('/img/tgbj-cai-xiaochen.svg') repeat;
-    background-size: auto; 
+    position: fixed;       /* 固定在页面上 */
+    top: 0;
+    left: 0;
+    width: 100vw;          /* 占满整个宽度 */
+    height: 100vh;         /* 占满整个高度 */
+    background: url('/img/xiowo-bg-dark.jpg') no-repeat center center;
+    background-size: cover; /* 背景按比例覆盖整个容器 */
+    z-index: -1;           /* 放到最底层，保证内容在上面 */
 }
+
 
 .status-tag {
     position: absolute;

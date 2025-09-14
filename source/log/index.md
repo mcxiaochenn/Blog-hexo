@@ -12,6 +12,7 @@ layout: sitetime
 维护[个人页](/about/)
 维护友链
 配置友链访问性检测，来自：https://blog.liushen.fun/posts/c2262998/
+把Mo佬的深色模式背景图~~偷~~（借鉴）过来了 doge
 <!-- endtimeline -->
 
 <!-- timeline 09-13 -->
