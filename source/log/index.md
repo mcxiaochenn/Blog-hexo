@@ -11,13 +11,14 @@ layout: sitetime
 <!-- timeline 09-15 -->
 页脚Netlify构建状态改为香港云服务器反代，提高速度 [Netlify Status](https://yyserver.mcxiaochen.top/tz.php?url=https://api.netlify.com/api/v1/badges/0a72d436-fdfc-4cd0-b6b6-f38360fa6620/deploy-status)
 更新即刻短文
-维护[个人页](/about/)
+维护 [个人页](/about/)
 微调分类页面
-深色模式增加高斯模糊，提高可读性
+深色模式 [分类标签页](/categories/教程/) 增加高斯模糊，提高可读性
+深色模式顶部菜单栏增加高斯模糊，提高美观度
 <!-- endtimeline -->
 
 <!-- timeline 09-14 -->
-维护[个人页](/about/)
+维护 [个人页](/about/)
 维护友链
 配置友链访问性检测，来自：https://blog.liushen.fun/posts/c2262998/
 把Mo佬的深色模式背景图~~偷~~（借鉴）过来了 doge

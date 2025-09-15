@@ -64,17 +64,23 @@ if hexo-config('darkmode.enable') || hexo-config('display_mode') == 'dark'
         background-color: #525252
         color: #e2f1ff
 
-    // 頭部
+
     #page-header
       &.nav-fixed > #nav,
       &.not-top-img > #nav
-        background: var(--anzhiyu-black);
+        background: rgba(18, 18, 18, 0.6)  // 半透明背景
+        -webkit-backdrop-filter: blur(8px) // Safari
+        backdrop-filter: blur(8px)
         box-shadow: 0 5px 6px -5px rgba(133, 133, 133, 0)
+        transition: background .3s, backdrop-filter .3s
     .post
       #page-header
         &.nav-fixed > #nav
-          background: var(--anzhiyu-card-bg);
-          box-shadow: none
+          background: rgba(18, 18, 18, 0.6)  // 半透明背景
+          -webkit-backdrop-filter: blur(8px) // Safari
+          backdrop-filter: blur(8px)
+          box-shadow: 0 5px 6px -5px rgba(133, 133, 133, 0)
+          transition: background .3s, backdrop-filter .3s
     #post-comment
       .comment-switch
         if hexo-config('comments.text')
