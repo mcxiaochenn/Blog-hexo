@@ -89,12 +89,15 @@ div#category {
 }
 
 [data-theme="dark"] div#category {
-  background: var(--anzhiyu-card-bg);
+  background: var(--anzhiyu-card-bg); 
 }
 
 [data-theme="dark"] div#category {
-  background: transparent !important;
+  background: rgba(18, 18, 18, 0.6); /* 半透明黑色 */
+  backdrop-filter: blur(10px);       /* 高斯模糊，数值可调 */
+  -webkit-backdrop-filter: blur(10px); /* 兼容 Safari */
 }
+
 
 /* md网站下划线 */
 #article-container a:hover {
