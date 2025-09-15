@@ -32,7 +32,9 @@ type: "about"
 
 ## 我的域名
 
-> 刚换完名字，还在考虑要不要把域名一起换了，换的话我应该会用ChenDusk
+{% tip %}
+刚换完名字，还在考虑要不要把域名一起换了，换的话我应该会用ChenDusk
+{% endtip %}
 
 mcxiaochen.top - 现在在用的
 
@@ -54,8 +56,8 @@ mcxiaochen.top - 现在在用的
 
 域名：[阿里云](https://aliyun.com/)
 Hexo 文件托管于：[GitHub](https://github.com/)
-Hexo 部署：[Netlify](https://www.netlify.com/)
-部分其他服务部署：[Cloudflare](https://cloudflare.com/) and [Vercel](https://vercel.com/)
+Hexo 部署：[Netlify](https://www.netlify.com/) and [Vercel](https://vercel.com/) 双线分流
+其他静态服务部署：[Cloudflare](https://cloudflare.com/) , [Netlify](https://www.netlify.com/) and [Vercel](https://vercel.com/)
 后端服务提供：[Rainyun 润雨科技](https://www.rainyun.com/blxc123_)
 主题：[ANZHIYU](https://docs.anheyu.com/) with [xcTheme](https://blog.mcxiaochen.top/)
 
