@@ -15,6 +15,7 @@ layout: sitetime
 微调分类页面
 深色模式 [分类标签页](/categories/教程/) 增加高斯模糊，提高可读性
 深色模式顶部菜单栏增加高斯模糊，提高美观度
+添加KUCAT盟
 <!-- endtimeline -->
 
 <!-- timeline 09-14 -->

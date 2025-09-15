@@ -474,15 +474,18 @@ footer:
       - link: https://icp.gov.moe/?keyword=20257721
         shields: /img/萌ICP备：20257721号.svg
         message: 萌ICP备20257721号
+      - link: https://icp.ekucat.com/beian/2025090721.html
+        shields: /img/KUCAT盟-2025090721号.svg
+        message: KUCAT盟2025090721号
       - link: https://icp.redcha.cn/beian/ICP-2025080084.html
         shields: /img/茶ICP备-2025080084号.svg
         message: 茶ICP备2025080084号
       - link: https://app.netlify.com/projects/chen-blog-hexo/deploys
         shields: https://yyserver.mcxiaochen.top/tz.php?url=https://api.netlify.com/api/v1/badges/0a72d436-fdfc-4cd0-b6b6-f38360fa6620/deploy-status
         message: Netlify Status
-      - link: https://ipw.cn/ssl/?site=blog.mcxiaochen.top
-        shields: https://static.ipw.cn/icon/ssl-s1.svg
-        message: 本站支持SSL安全访问
+      # - link: https://ipw.cn/ssl/?site=blog.mcxiaochen.top
+      #   shields: https://static.ipw.cn/icon/ssl-s1.svg
+      #   message: 本站支持SSL安全访问
       # - link: http://creativecommons.org/licenses/by-nc-sa/4.0/
       #   shields: https://npm.elemecdn.com/anzhiyu-blog@2.2.0/img/badge/Copyright-BY-NC-SA.svg
       #   message: 本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可
