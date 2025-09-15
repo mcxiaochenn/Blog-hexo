@@ -478,7 +478,7 @@ footer:
         shields: /img/茶ICP备-2025080084号.svg
         message: 茶ICP备2025080084号
       - link: https://app.netlify.com/projects/chen-blog-hexo/deploys
-        shields: https://api.netlify.com/api/v1/badges/0a72d436-fdfc-4cd0-b6b6-f38360fa6620/deploy-status
+        shields: https://yyserver.mcxiaochen.top/tz.php?url=https://api.netlify.com/api/v1/badges/0a72d436-fdfc-4cd0-b6b6-f38360fa6620/deploy-status
         message: Netlify Status
       - link: https://ipw.cn/ssl/?site=blog.mcxiaochen.top
         shields: https://static.ipw.cn/icon/ssl-s1.svg
