@@ -5,6 +5,7 @@
 ## 状态
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0a72d436-fdfc-4cd0-b6b6-f38360fa6620/deploy-status)](https://app.netlify.com/projects/chen-blog-hexo/deploys)
+[![Vercel Status](https://vercelbadge.vercel.app/api/mcxiaochenn/blog-hexo)](https://vercel.com/luyichens-projects/blog-hexo/deployments)
 
 ## 关于
 
