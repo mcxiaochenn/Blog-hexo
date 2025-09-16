@@ -8,6 +8,10 @@ layout: sitetime
 
 {% timeline 2025 %}
 
+<!-- timeline 09-16 -->
+添加侧边栏服务提供商显示
+<!-- endtimeline -->
+
 <!-- timeline 09-15 -->
 页脚Netlify构建状态改为香港云服务器反代，提高速度 [Netlify Status](https://yyserver.mcxiaochen.top/tz.php?url=https://api.netlify.com/api/v1/badges/0a72d436-fdfc-4cd0-b6b6-f38360fa6620/deploy-status)
 更新即刻短文

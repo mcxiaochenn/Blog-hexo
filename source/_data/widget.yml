@@ -28,6 +28,81 @@ bottom:
           <i class="fas fa-angle-right"></i>
         </a>
         <div class="aside-list" id="latest-comments"></div>
+  - class_name: card-provider
+    id_name:
+    name: 服务提供商
+    icon: fas fa-server
+    html: |
+      <div id="providerCard" style="text-align:center;padding:8px 0;">
+        <div style="margin-bottom:6px;">
+          <span id="providerText" 
+                style="display:inline-block;
+                       padding:4px 10px;
+                       border-radius:16px;
+                       font-size:13px;
+                       font-weight:500;
+                       background:var(--anzhiyu-theme);
+                       color:#fff;">
+            检测中...
+          </span>
+        </div>
+        <div id="providerBadge"></div>
+      </div>
+      <script>
+        (function(){
+          const badgeEl=document.getElementById("providerBadge");
+          const textEl=document.getElementById("providerText");
+
+          function setProvider(name){
+            if(!textEl) return;
+            if(name==="vercel"){
+              textEl.textContent="Vercel";
+              textEl.style.background="#000";
+              textEl.style.color="#fff";
+              badgeEl.innerHTML='<img src="https://yyserver.mcxiaochen.top/tz.php?url=https://vercelbadge.vercel.app/api/mcxiaochenn/blog-hexo" alt="Vercel 构建状态">';
+            }else if(name==="netlify"){
+              textEl.textContent="Netlify";
+              textEl.style.background="#00C7B7";
+              textEl.style.color="#fff";
+              badgeEl.innerHTML='<img src="https://yyserver.mcxiaochen.top/tz.php?url=https://api.netlify.com/api/v1/badges/0a72d436-fdfc-4cd0-b6b6-f38360fa6620/deploy-status" alt="Netlify 构建状态">';
+            }else if(name==="local"){
+              textEl.textContent="本地";
+              textEl.style.background="#FFB020";
+              textEl.style.color="#fff";
+              badgeEl.innerHTML='<span style="font-size:12px;color:#666;">本地开发环境</span>';
+            }else{
+              textEl.textContent="未知";
+              textEl.style.background="#888";
+              textEl.style.color="#fff";
+              badgeEl.innerHTML='<span style="font-size:12px;color:#666;">无法获取构建状态</span>';
+            }
+          }
+
+          // 本地优先
+          const host=location.hostname;
+          if(host==="localhost"||host==="127.0.0.1"||host==="::1"){setProvider("local");return;}
+
+          // 构建注入优先
+          if(window.__DEPLOY_PROVIDER__){setProvider(window.__DEPLOY_PROVIDER__);return;}
+
+          async function detect(method){
+            try{
+              const res=await fetch(location.href,{method,cache:"no-store"});
+              const s=(res.headers.get("server")||"").toLowerCase();
+              if(res.headers.get("x-vercel-id")||s.includes("vercel")) return "vercel";
+              if(res.headers.get("x-nf-request-id")||s.includes("netlify")) return "netlify";
+            }catch(e){}
+            return null;
+          }
+
+          (async()=>{
+            let p=await detect("HEAD");
+            if(!p) p=await detect("GET");
+            setProvider(p||"未知");
+          })();
+        })();
+      </script>
+
   - class_name: card-random-image
     id_name:
     name: 随机图片
