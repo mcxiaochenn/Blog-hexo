@@ -48,11 +48,12 @@ const showWelcome = ({
 
     const dist = calculateDistance(lng, lat);
     const ipDisplay = formatIpDisplay(ip);
+    const provider = getDeployProvider();
     const pos = formatLocation(country, prov, city);
 
     welcomeInfo.style.display = 'block';
     welcomeInfo.style.height = 'auto';
-    welcomeInfo.innerHTML = generateWelcomeMessage(pos, dist, ipDisplay, country, prov, city);
+    welcomeInfo.innerHTML = generateWelcomeMessage(pos, dist, ipDisplay, provider, country, prov, city);
 };
 
 const calculateDistance = (lng, lat) => {
@@ -71,10 +72,46 @@ const formatLocation = (country, prov, city) => {
     return country ? (country === "中国" ? `${prov} ${city}` : country) : '神秘地区';
 };
 
-const generateWelcomeMessage = (pos, dist, ipDisplay, country, prov, city) => `
+const getDeployProvider = () => {
+    const host = window.location.hostname;
+    let provider = '其他';
+
+    // 判断本地
+    if (host === 'localhost' || host === '127.0.0.1' || host === '::1') {
+        provider = '本地';
+    } 
+    // 判断构建注入变量
+    else if (window.__DEPLOY_PROVIDER__ === 'VERCEL') {
+        provider = 'Vercel';
+    } 
+    else if (window.__DEPLOY_PROVIDER__ === 'NETLIFY') {
+        provider = 'Netlify';
+    } 
+    // 尝试通过网络请求头判断
+    else {
+        try {
+            const xhr = new XMLHttpRequest();
+            xhr.open('HEAD', window.location.href, false); // 同步请求
+            xhr.send(null);
+
+            const server = xhr.getResponseHeader('server') || '';
+            const vercelId = xhr.getResponseHeader('x-vercel-id') || '';
+
+            if (vercelId) provider = 'Vercel';
+            else if (server.toLowerCase().includes('netlify')) provider = 'Netlify';
+        } catch (e) {
+            // 请求失败保持其他
+        }
+    }
+
+    return provider;
+};
+
+const generateWelcomeMessage = (pos, dist, ipDisplay, provider, country, prov, city) => `
     欢迎来自 <b>${pos}</b> 的小友💖<br>
     你当前距博主约 <b>${dist}</b> 公里！<br>
     你的IP地址：<b class="ip-address">${ipDisplay}</b><br>
+    服务提供商：<b>${provider}</b><br>
     ${getTimeGreeting()}<br>
     Tip：<b>${getGreeting(country, prov, city)}🍂</b>
 `;
