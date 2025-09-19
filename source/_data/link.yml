@@ -242,6 +242,11 @@
       avatar: https://sakurasen.cn/icon
       descr: 无限进步！
       siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https://blog.sakurasen.cn
+    - name: 旺东自留地
+      link: https://wang618.cn/
+      avatar: https://wang618.cn/logo.gif
+      descr: 爱生活、爱摸鱼
+      siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https://wang618.cn/
 
 - class_name: 走丢的小伙伴
   class_desc: 随机回访超过三次博客无法进入或异常，就会进入走丢的小伙伴，此处永久保留并不定期回访，如果恢复正常则回到小伙伴里
