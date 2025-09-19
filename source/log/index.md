@@ -13,6 +13,8 @@ layout: sitetime
 加入开往
 加入[十年之约](https://www.snzy.cn/)
 感觉还是有点刺眼，把所有的 a8e6cf 全部替换为 ffd3b6
+记录这重要的时刻，我的站点图标被必应收录了！！！
+![250919_19h59m01s_screenshot.png](https://bu.dusays.com/2025/09/19/68cd45a2e5c5e.png)
 <!-- endtimeline -->
 
 <!-- timeline 09-16 -->
