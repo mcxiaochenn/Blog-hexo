@@ -8,6 +8,10 @@ layout: sitetime
 
 {% timeline 2025 %}
 
+<!-- timeline 09-17 -->
+维护友链
+<!-- endtimeline -->
+
 <!-- timeline 09-16 -->
 添加侧边栏服务提供商显示
 移除页脚的Netlify状态指示

@@ -227,6 +227,11 @@
       avatar: https://gravatar.com/avatar/2fc4cf3560ff5a1cc64ea029896ab235?s=400
       descr: 聆听心中最初的声音
       siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https://www.himiku.com/
+    - name: 李开开博客
+      link: https://blog.caonmd.com/
+      avatar: https://blog.caonmd.com/upload/%E5%A4%B4%E5%83%8F-%E5%9C%86.png
+      descr: 李开开博客，技术学习与日常分享
+      siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https://blog.caonmd.com/
 
 - class_name: 走丢的小伙伴
   class_desc: 随机回访超过三次博客无法进入或异常，就会进入走丢的小伙伴，此处永久保留并不定期回访，如果恢复正常则回到小伙伴里
