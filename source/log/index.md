@@ -16,7 +16,7 @@ layout: sitetime
 记录这重要的时刻，我的站点图标被必应收录了！！！
 ![250919_19h59m01s_screenshot.png](https://bu.dusays.com/2025/09/19/68cd45a2e5c5e.png)
 更新即刻短文
-head添加博阅榜
+侧边栏添加博阅榜
 <!-- endtimeline -->
 
 <!-- timeline 09-16 -->
