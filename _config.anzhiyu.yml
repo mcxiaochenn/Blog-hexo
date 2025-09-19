@@ -27,7 +27,7 @@ menu:
 # nav相关配置
 nav:
   enable: true
-  travelling: false
+  travelling: true
   clock: false
   menu:
     - title: 网页
@@ -530,6 +530,8 @@ footer:
             link: https://7bu.top/
           - title: Vercount
             link: https://cn.vercount.one/
+          - title: 开往
+            link: https://www.travellings.cn/go.html
       - title: 架构
         links:
           - title: Hexo
