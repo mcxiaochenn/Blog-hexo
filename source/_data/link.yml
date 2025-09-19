@@ -247,6 +247,21 @@
       avatar: https://wang618.cn/logo.gif
       descr: 爱生活、爱摸鱼
       siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https://wang618.cn/
+    - name: 小路文章
+      link: https://www.xn--yetq47i.top
+      avatar: https://www.xn--yetq47i.top/tp/tp.png
+      descr: 一个专注于分享内容的高品质博客平台
+      siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https://www.xn--yetq47i.top
+    - name: 陌子夕生活录
+      link: https://mozixi.com
+      avatar: https://mozixi.com/img/avatar.png
+      descr: 夕阳无别事，等风也等你...
+      siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https://mozixi.com
+    - name: Firgt's Blog
+      link: https://blog.firgt.cn
+      avatar: https://mozixi.com/img/avatar.png
+      descr: 其实是一个很懒的初中生的博客啦
+      siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https://blog.firgt.cn
 
 - class_name: 走丢的小伙伴
   class_desc: 随机回访超过三次博客无法进入或异常，就会进入走丢的小伙伴，此处永久保留并不定期回访，如果恢复正常则回到小伙伴里
