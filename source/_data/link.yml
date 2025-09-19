@@ -262,6 +262,11 @@
       avatar: https://firgt.eu.org/images/Enderman.jpg
       descr: 其实是一个很懒的初中生的博客啦
       siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https://blog.firgt.cn
+    - name: BIIBII
+      link: https://www.biibii.cn
+      avatar: https://www.biibii.cn/usr/uploads/2025/07/3155658037.webp
+      descr: 记录生活中的技术脉搏。
+      siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https://www.biibii.cn
 
 - class_name: 走丢的小伙伴
   class_desc: 随机回访超过三次博客无法进入或异常，就会进入走丢的小伙伴，此处永久保留并不定期回访，如果恢复正常则回到小伙伴里
