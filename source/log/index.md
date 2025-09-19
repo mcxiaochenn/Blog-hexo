@@ -11,6 +11,7 @@ layout: sitetime
 <!-- timeline 09-19 -->
 维护友链
 加入开往
+加入[十年之约](https://www.snzy.cn/)
 <!-- endtimeline -->
 
 <!-- timeline 09-16 -->

@@ -480,6 +480,12 @@ footer:
       - link: https://icp.redcha.cn/beian/ICP-2025080084.html
         shields: /img/茶ICP备-2025080084号.svg
         message: 茶ICP备2025080084号
+      - link: https://www.snzy.cn/website/2025091916000071.html
+        shields: https://www.snzy.cn/images/snzylogo.png
+        message: 辰渊尘的十年之约
+      - link: https://www.snzy.cn/certificate/zhengshu-2025091916000071.html
+        shields: https://www.snzy.cn/images/snzylyzs.png
+        message: 辰渊尘正在履约中
       # - link: https://app.netlify.com/projects/chen-blog-hexo/deploys
       #   shields: https://yyserver.mcxiaochen.top/tz.php?url=https://api.netlify.com/api/v1/badges/0a72d436-fdfc-4cd0-b6b6-f38360fa6620/deploy-status
       #   message: Netlify Status
