@@ -290,6 +290,18 @@
       descr: 一个人的寂寞，一群人的狂欢。
       siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https://www.foreverblog.cn/
       tag: 十年之约
+    - name: 博客大全
+      link: https://daohang.lusongsong.com/
+      avatar: https://daohang.lusongsong.com/favicon.ico
+      descr: 优秀的草根创业者网址导航
+      siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https://daohang.lusongsong.com/
+      tag: 博客大全
+    - name: BlogsClub
+      link: https://www.blogsclub.org/
+      avatar: https://www.blogsclub.org/usr/themes/default/favicon.png
+      descr: 个人博客俱乐部
+      siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https://www.blogsclub.org/
+      tag: BlogsClub
 
 - class_name: 推荐服务商
   class_desc: 靠谱的伙伴，站长的福音
