@@ -237,6 +237,11 @@
       avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=1355502473&spec=640
       descr: Eclipse first, the Rest Nowhere.
       siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https://www.bluesdawn.top/
+    - name: 森语 - SENblog
+      link: https://blog.sakurasen.cn
+      avatar: https://sakurasen.cn/icon
+      descr: 无限进步！
+      siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https://blog.sakurasen.cn
 
 - class_name: 走丢的小伙伴
   class_desc: 随机回访超过三次博客无法进入或异常，就会进入走丢的小伙伴，此处永久保留并不定期回访，如果恢复正常则回到小伙伴里
