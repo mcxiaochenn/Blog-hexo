@@ -12,6 +12,7 @@ layout: sitetime
 维护友链
 加入开往
 加入[十年之约](https://www.snzy.cn/)
+感觉还是有点刺眼，把所有的 a8e6cf 全部替换为 ffd3b6
 <!-- endtimeline -->
 
 <!-- timeline 09-16 -->
