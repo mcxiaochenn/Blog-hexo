@@ -17,6 +17,7 @@ layout: sitetime
 ![250919_19h59m01s_screenshot.png](https://bu.dusays.com/2025/09/19/68cd45a2e5c5e.png)
 更新即刻短文
 侧边栏添加博阅榜
+单页文章数量改为14篇
 <!-- endtimeline -->
 
 <!-- timeline 09-16 -->
