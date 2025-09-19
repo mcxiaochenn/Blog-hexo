@@ -1326,6 +1326,7 @@ inject:
     - <link rel="stylesheet" href="/css/home.css"> # 首页文章卡片擦亮效果
     - <link rel="stylesheet" href="/css/todolist.css"> # 待办清单页
     - <link rel='stylesheet' href='https://cnfont-chillroundfbold.mcxiaochen.top/result.css' />
+    - <link rel="prefetch" as="image" href="https://www.blogsclub.org/badge/blog.mcxiaochen.top">
     - <script src="/js/nomyurl.js"></script>
     - <script defer src="https://umami.mcxiaochen.top/script.js" data-website-id="4d155577-ee52-4469-a572-2156d323cc4f"></script>
     - <meta name="baidu-site-verification" content="codeva-lzpVCQt9AB" /> 
