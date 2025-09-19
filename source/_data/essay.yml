@@ -7,6 +7,10 @@
   home_essay: true
   top_background: /img/congyu/congyu4.png
   essay_list:
+    - content: 记录下这重要的一刻，我的站点图标被必应收录了！！！
+      date: 2025-09-19 20:01:53
+      link: https://www.bing.com/search?q=%E8%BE%B0%E6%B8%8A%E5%B0%98
+      image: https://bu.dusays.com/2025/09/19/68cd45a2e5c5e.png
     - content: 经过原作者确认Netlify+Vercel双线是可以自动续签的，故改为双线，如果分配到Vercel节点后博客遇到任何问题，烦请到留言板反馈，万分感谢！🙏🙏🙏
       date: 2025-09-15 19:08
     - content: 我被抛弃在这巨大染缸~

@@ -299,10 +299,10 @@
       descr: 个人博客俱乐部
       siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https://www.blogsclub.org/
     - name: BlogFinder
-      link: https://bf.zzxworld.com/s
+      link: https://bf.zzxworld.com/
       avatar: https://bf.zzxworld.com/images/favicon.png
       descr: 发现优秀的个人博客
-      siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https://bf.zzxworld.com/s
+      siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https://bf.zzxworld.com/
 
 - class_name: 推荐服务商
   class_desc: 靠谱的伙伴，站长的福音
