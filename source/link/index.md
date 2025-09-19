@@ -51,10 +51,10 @@ top_img: false
 
 <!-- tab Butterfly -->
 ```yml
-- name: 尘の个人博客
+- name: 辰渊尘の个人博客
   link: https://blog.mcxiaochen.top/
   avatar: https://blog.mcxiaochen.top/favicon.ico
-  descr: 05后，高中生，喜欢什么就做什么，内容偏技术向和保姆级，希望能对你有用QwQ
+  descr: 05后，高中生，内容偏技术向，希望能对你有用QwQ
   siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https://blog.mcxiaochen.top/
 ```
 <!-- endtab -->
@@ -63,8 +63,8 @@ top_img: false
 
 ```yml
 - {
-    title: "尘の个人博客",
-    intro: "05后，高中生，喜欢什么就做什么，内容偏技术向和保姆级，希望能对你有用QwQ",
+    title: "辰渊尘の个人博客",
+    intro: "05后，高中生，内容偏技术向，希望能对你有用QwQ",
     link: "https://blog.mcxiaochen.top/",
     image: "https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https://blog.mcxiaochen.top/",
   }
@@ -75,7 +75,7 @@ top_img: false
 <!-- tab html -->
 
 ```HTML
-<a href="https://blog.mcxiaochen.top/" rel="external nofollow">尘の个人博客</a>
+<a href="https://blog.mcxiaochen.top/" rel="external nofollow">辰渊尘の个人博客</a>
 ```
 
 <!-- endtab -->
